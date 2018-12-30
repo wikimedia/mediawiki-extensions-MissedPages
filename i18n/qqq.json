@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Samwilson"
+		]
+	},
+	"missedpages": "Title for the link to Special:MissedPages on Special:SpecialPages.",
+	"missedpages-desc": "{{desc|name=MissedPages|url=https://www.mediawiki.org/wiki/Extension:MissedPages}}",
+
+	"missedpages-special-page-title": "Title for Special:MissedPages",
+	"missedpages-count": "Column header on Special:MissedPages for the column that contains the hit counts for pages.",
+	"missedpages-page": "Column header on Special:MissedPages for the column that contains the links to the pages.",
+	"missedpages-actions": "Column header on Special:MissedPages for the column that contains the action buttons etc.",
+	"missedpages-redirect": "Button label for the button next to the text input in which the redirect target is entered.",
+	"missedpages-redirect-desc": "Button tooltop for the 'redirect' button.",
+	"missedpages-redirect-comment": "Edit comment used when creating a redirect page.",
+	"missedpages-delete": "Button label for the button to delete one page's log entries.",
+	"missedpages-delete-desc": "Button tooltip for the 'delete' button.",
+	"missedpages-ignore": "Button label for the button to ignore one page and no longer add it to the log.",
+	"missedpages-ignore-desc": "Button tooltip for the 'ignore' button."
+}

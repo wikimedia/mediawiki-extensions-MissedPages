@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Samwilson"
+		]
+	},
+	"missedpages": "Missed pages",
+	"missedpages-desc": "Summarizes 404 (page not found) errors, and provides a quick way to redirect or ignore them.",
+
+	"missedpages-special-page-title": "Missed Pages",
+	"missedpages-count": "Count",
+	"missedpages-page": "Page",
+	"missedpages-actions": "Actions",
+	"missedpages-redirect": "Redirect",
+	"missedpages-redirect-desc": "Add a redirect for this page.",
+	"missedpages-redirect-comment": "Redirect added by MissedPages.",
+	"missedpages-delete": "Delete",
+	"missedpages-delete-desc": "Delete this page's entries from log.",
+	"missedpages-ignore": "Ignore",
+	"missedpages-ignore-desc": "Ignore this page in the future when it produces a 404 error."
+}
