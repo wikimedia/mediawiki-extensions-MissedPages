@@ -16,6 +16,15 @@ use Title;
  */
 class SpecialMissedPages extends SpecialPage {
 
+	/** @var string The user right required to add redirects. */
+	protected $redirectRight = 'edit';
+
+	/** @var string The user right required to ignore pages in the missed pages log. */
+	protected $ignoreRight = 'block';
+
+	/** @var string The user right required to delete pages from the missed pages log. */
+	protected $deleteRight = 'delete';
+
 	/**
 	 * SpecialPage constructor.
 	 * @param string $name
@@ -32,10 +41,9 @@ class SpecialMissedPages extends SpecialPage {
 	}
 
 	/**
-	 * Show the page to the user
+	 * Show the page to the user.
 	 *
 	 * @param string $sub The subpage string argument (if any).
-	 *  [[Special:HelloWorld/subpage]].
 	 */
 	public function execute( $sub ) {
 		$this->getOutput()->enableOOUI();
@@ -51,15 +59,15 @@ class SpecialMissedPages extends SpecialPage {
 		if ( $this->getRequest()->wasPosted() ) {
 			$postVals = $this->getRequest()->getPostValues();
 			$redirect = false;
-			if ( isset( $postVals['redirect'] ) ) {
+			if ( isset( $postVals['redirect'] ) && $this->getUser()->isAllowed( $this->redirectRight ) ) {
 				$log->redirect( $postVals['redirect'], $postVals['redirect_target'][$postVals['redirect']] );
 				$redirect = true;
 			}
-			if ( isset( $postVals['ignore'] ) ) {
+			if ( isset( $postVals['ignore'] ) && $this->getUser()->isAllowed( $this->ignoreRight ) ) {
 				$log->ignore( $postVals['ignore'] );
 				$redirect = true;
 			}
-			if ( isset( $postVals['delete'] ) ) {
+			if ( isset( $postVals['delete'] ) && $this->getUser()->isAllowed( $this->deleteRight ) ) {
 				$log->delete( $postVals['delete'] );
 				$redirect = true;
 			}
@@ -110,6 +118,8 @@ class SpecialMissedPages extends SpecialPage {
 			'value' => $logEntry->mp_page_title,
 			'label' => $this->msg( "missedpages-ignore" )->plain(),
 			'title' => $this->msg( "missedpages-ignore-desc" )->plain(),
+			// This isn't really the same as blocking a user, but it's a similar level of responsibility.
+			'disabled' => !$this->getUser()->isAllowed( $this->ignoreRight ),
 		] );
 		$deleteButton = new ButtonInputWidget( [
 			'type' => 'submit',
@@ -117,11 +127,14 @@ class SpecialMissedPages extends SpecialPage {
 			'value' => $logEntry->mp_page_title,
 			'label' => $this->msg( "missedpages-delete" )->plain(),
 			'title' => $this->msg( "missedpages-delete-desc" )->plain(),
+			'disabled' => !$this->getUser()->isAllowed( $this->deleteRight ),
 		] );
+		$disableRedirectField = !$this->getUser()->isAllowed( $this->redirectRight );
 		$redirectField = new ActionFieldLayout(
 			new TitleInputWidget( [
 				'name' => 'redirect_target[' . $logEntry->mp_page_title . ']',
 				'infusable' => true,
+				'disabled' => $disableRedirectField
 			] ),
 			new ButtonInputWidget( [
 				'type' => 'submit',
@@ -129,6 +142,7 @@ class SpecialMissedPages extends SpecialPage {
 				'value' => $logEntry->mp_page_title,
 				'label' => $this->msg( 'missedpages-redirect' )->plain(),
 				'title' => $this->msg( 'missedpages-redirect-desc' )->plain(),
+				'disabled' => $disableRedirectField
 			] )
 		);
 		$fields = new HorizontalLayout( [

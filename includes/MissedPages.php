@@ -57,6 +57,8 @@ class MissedPages {
 			[
 				'ORDER BY' => $dbr->addIdentifierQuotes( 'count' ) . ' DESC',
 				'GROUP BY' => 'mp_page_title',
+				// Arbitrary limit. A temporary measure until this is switched to a paged layout.
+				'LIMIT' => 100,
 			]
 		);
 		return $records;
