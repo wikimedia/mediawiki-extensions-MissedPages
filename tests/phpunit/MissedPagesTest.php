@@ -88,4 +88,32 @@ class MissedPagesTest extends MediaWikiTestCase {
 		$log->recordMissingPage( $testPage );
 		static::assertCount( 0, $log->getLogEntries() );
 	}
+
+	/**
+	 * @covers \MediaWiki\Extension\MissedPages\MissedPages::getDayCounts()
+	 */
+	public function testDayCounts() {
+		// Create some test data.
+		$data = [
+			'10' => '4',
+			'11' => '11',
+			'12' => '2'
+		];
+		foreach ( $data as $monthNum => $count ) {
+			for ( $i = 1; $i <= $count; $i++ ) {
+				$this->db->insert(
+					MissedPages::TABLE_NAME,
+					[
+						'mp_datetime' => '2018-' . $monthNum . '-01 12:00:00',
+						'mp_page_title' => 'Day-counts test',
+					],
+					__METHOD__
+				);
+			}
+		}
+		// Check the log results.
+		$log = new MissedPages();
+		$counts = $log->getDayCounts( 'Day-counts test', 300 );
+		static::assertEquals( [ 4, 11, 2 ], $counts );
+	}
 }

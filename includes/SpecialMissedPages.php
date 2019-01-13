@@ -2,6 +2,7 @@
 
 namespace MediaWiki\Extension\MissedPages;
 
+use Davaxi\Sparkline;
 use Html;
 use MediaWiki\Widget\TitleInputWidget;
 use OOUI\ActionFieldLayout;
@@ -24,6 +25,9 @@ class SpecialMissedPages extends SpecialPage {
 
 	/** @var string The user right required to delete pages from the missed pages log. */
 	protected $deleteRight = 'delete';
+
+	/** @var MissedPages */
+	protected $log;
 
 	/**
 	 * SpecialPage constructor.
@@ -53,7 +57,7 @@ class SpecialMissedPages extends SpecialPage {
 		$out->addHelpLink( 'Help:Extension:MissedPages' );
 		$out->addModules( 'ext.missedpages' );
 
-		$log = new MissedPages();
+		$this->log = new MissedPages();
 
 		// Save any submitted data.
 		if ( $this->getRequest()->wasPosted() ) {
@@ -80,17 +84,18 @@ class SpecialMissedPages extends SpecialPage {
 
 		// Build the output.
 		$rows = [];
-		foreach ( $log->getLogEntries() as $logEntry ) {
+		foreach ( $this->log->getLogEntries() as $logEntry ) {
 			$rows[] = $this->getTableRow( $logEntry );
 		}
 		$headers = Html::rawElement( 'tr', [],
-			Html::element( 'th', [], $this->msg( 'missedpages-count' )->plain() )
+			Html::element( 'th', [], $this->msg( 'missedpages-trend' )->plain() )
+			. Html::element( 'th', [], $this->msg( 'missedpages-count' )->plain() )
 			. Html::element( 'th', [], $this->msg( 'missedpages-page' )->plain() )
 			. Html::element( 'th', [], $this->msg( 'missedpages-actions' )->plain() )
 		);
 		$table = Html::rawElement(
 			'table',
-			[ 'class' => 'wikitable' ],
+			[ 'class' => 'wikitable ext-missedpages' ],
 			$headers . implode( "\n", $rows )
 		);
 		$form = Html::rawElement( 'form', [
@@ -108,6 +113,20 @@ class SpecialMissedPages extends SpecialPage {
 	 * @return string
 	 */
 	protected function getTableRow( stdClass $logEntry ) {
+		$sparkline = new Sparkline();
+		$dayCounts = $this->log->getDayCounts( $logEntry->mp_page_title );
+		$sparkline->setData( $dayCounts );
+		$imgParams = [
+			'class' => 'sparkline',
+			'src' => 'data:image/png;base64,' . $sparkline->toBase64(),
+			'title' => $this->msg( 'missedpages-sparkline-title',
+				number_format( array_sum( $dayCounts ) ),
+				number_format( count( $dayCounts ) )
+			),
+		];
+		$sparklineImage = Html::element( 'img', $imgParams );
+		$sparklineCell = Html::rawElement( 'td', [], $sparklineImage );
+
 		$countCell = Html::rawElement( 'td', [], $logEntry->count );
 		$pageLink = $this->getLinkRenderer()->makeLink( Title::newFromText( $logEntry->mp_page_title ) );
 		$pageCell = Html::rawElement( 'td', [], $pageLink );
@@ -134,7 +153,7 @@ class SpecialMissedPages extends SpecialPage {
 			new TitleInputWidget( [
 				'name' => 'redirect_target[' . $logEntry->mp_page_title . ']',
 				'infusable' => true,
-				'disabled' => $disableRedirectField
+				'disabled' => $disableRedirectField,
 			] ),
 			new ButtonInputWidget( [
 				'type' => 'submit',
@@ -150,7 +169,7 @@ class SpecialMissedPages extends SpecialPage {
 		] );
 
 		$actionCell = Html::rawElement( 'td', [], $fields->toString() );
-		return Html::rawElement( 'tr', [], $countCell . $pageCell . $actionCell );
+		return Html::rawElement( 'tr', [], $sparklineCell . $countCell . $pageCell . $actionCell );
 	}
 
 }

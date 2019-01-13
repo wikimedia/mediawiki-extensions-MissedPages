@@ -137,4 +137,33 @@ class MissedPages {
 		$dbw->insert( static::TABLE_NAME, $values, __METHOD__ );
 		$dbw->endAtomic( __METHOD__ );
 	}
+
+	/**
+	 * Get daily totals of misses for the given page.
+	 * @param string $titleString The page title.
+	 * @return int[] Page counts, ordered by date.
+	 */
+	public function getDayCounts( $titleString ) {
+		$dbr = wfGetDB( DB_REPLICA );
+		$records = $dbr->select(
+			static::TABLE_NAME,
+			[
+				'count' => 'COUNT(mp_id)',
+			],
+			[
+				'mp_ignore' => false,
+				'mp_page_title' => $titleString,
+			],
+			__METHOD__,
+			[
+				'ORDER BY' => 'mp_datetime ASC',
+				'GROUP BY' => 'YEAR(mp_datetime), MONTH(mp_datetime), DAY(mp_datetime)',
+			]
+		);
+		$counts = [];
+		foreach ( $records as $record ) {
+			$counts[] = $record->count;
+		}
+		return $counts;
+	}
 }

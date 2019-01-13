@@ -4,6 +4,9 @@
 	"description": "A MediaWiki extension for tracking and handling 404 errors.",
 	"homepage": "https://www.mediawiki.org/wiki/Extension:MissedPages",
 	"license": "GPL-3.0-or-later",
+	"require": {
+		"davaxi/sparkline": "^1.1"
+	},
 	"require-dev": {
 		"jakub-onderka/php-parallel-lint": "1.0.0",
 		"mediawiki/mediawiki-codesniffer": "24.0.0",

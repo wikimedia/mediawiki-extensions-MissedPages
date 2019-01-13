@@ -8,6 +8,8 @@
 	"missedpages": "{{name}}\n{{doc-special}}\nTitle for the link to Special:MissedPages on Special:SpecialPages.",
 	"missedpages-desc": "{{desc|name=MissedPages|url=https://www.mediawiki.org/wiki/Extension:MissedPages}}",
 	"missedpages-special-page-title": "Title for Special:MissedPages",
+	"missedpages-trend": "Column header on Special:MissedPages for the column that contains a sparkline chart of the history of misses for a single page.",
+	"missedpages-sparkline-title": "Tooltip for the sparkline. $1 is the total number of page views. $2 is the total number of days included in the sparkline.",
 	"missedpages-count": "Column header on Special:MissedPages for the column that contains the hit counts for pages.",
 	"missedpages-page": "Column header on Special:MissedPages for the column that contains the links to the pages.",
 	"missedpages-actions": "Column header on Special:MissedPages for the column that contains the action buttons etc.",

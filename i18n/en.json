@@ -8,6 +8,8 @@
 	"missedpages-desc": "Summarizes 404 (page not found) errors, and provides a quick way to redirect or ignore them.",
 
 	"missedpages-special-page-title": "Missed Pages",
+	"missedpages-trend": "Trend",
+	"missedpages-sparkline-title": "$1 page views over $2 days",
 	"missedpages-count": "Count",
 	"missedpages-page": "Page",
 	"missedpages-actions": "Actions",
