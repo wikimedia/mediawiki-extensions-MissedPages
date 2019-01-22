@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wladek92"
+		]
+	},
+	"missedpages": "Pages manquées",
+	"missedpages-desc": "Résume les erreurs 404 (page non trouvée), et fournit une manière rapide de les rediriger ou de les ignorer.",
+	"missedpages-special-page-title": "Pages manquantes",
+	"missedpages-count": "Total",
+	"missedpages-page": "Page",
+	"missedpages-actions": "Actions",
+	"missedpages-redirect": "Rediriger",
+	"missedpages-redirect-desc": "Ajouter une redirection pour cette page.",
+	"missedpages-redirect-comment": "Redirection ajoutée par MissedPages.",
+	"missedpages-delete": "Supprimer",
+	"missedpages-delete-desc": "Supprimer les entrées de cette page dans le journal.",
+	"missedpages-ignore": "Ignorer",
+	"missedpages-ignore-desc": "Ignorer cette page à l'avenir si elle produit l'erreur 404."
+}

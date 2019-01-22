@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hedda"
+		]
+	},
+	"missedpages": "Eksik sayfalar",
+	"missedpages-desc": "404 (sayfa bulunamadı) hatalarını özetler ve bunları yönlendirmek veya yok saymak için hızlı bir yol sağlar.",
+	"missedpages-special-page-title": "Eksik Sayfalar",
+	"missedpages-count": "Sayı",
+	"missedpages-page": "Sayfa",
+	"missedpages-actions": "İşlemler",
+	"missedpages-redirect": "Yönlendirme",
+	"missedpages-redirect-desc": "Bu sayfa için bir yönlendirme ekleyin.",
+	"missedpages-redirect-comment": "EksikSayfalar ile yönlendirme yapıldı",
+	"missedpages-delete": "Sil",
+	"missedpages-delete-desc": "Bu sayfanın girdilerini günlükten silin.",
+	"missedpages-ignore": "Yoksay",
+	"missedpages-ignore-desc": "İlerleyen zamanda bir 404 hatası oluşturduğunda bu sayfayı yoksay."
+}

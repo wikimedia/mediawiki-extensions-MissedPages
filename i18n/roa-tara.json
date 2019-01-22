@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"missedpages": "Pàggene mangande",
+	"missedpages-desc": "Riepiloghe le errore 404 (pàgene non acchiate), e dèje 'nu mode veloce pe redirezionà a lore o no le sce penzanne.",
+	"missedpages-special-page-title": "Pàggene mangande",
+	"missedpages-count": "Condegge",
+	"missedpages-page": "Pàgene",
+	"missedpages-actions": "Aziune",
+	"missedpages-redirect": "Redirezionamende",
+	"missedpages-redirect-desc": "Aggiunge 'nu redirezionamende a sta pàgene.",
+	"missedpages-redirect-comment": "Redirezionamende aggiunde sus a le Pàggene Mangande.",
+	"missedpages-delete": "Scangìlle",
+	"missedpages-delete-desc": "Scangìlle sta vôsce da l'archivije.",
+	"missedpages-ignore": "Ignore",
+	"missedpages-ignore-desc": "No scè penzanne sta pàgene le prosseme vote quanne iesse 'n'errore 404."
+}

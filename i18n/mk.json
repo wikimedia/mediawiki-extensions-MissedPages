@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"missedpages": "Промашени страници",
+	"missedpages-desc": "Дава преглед на грешки 404 (непронајдена страница) и овозможува брз начин за нивно пренасочување или занемарување.",
+	"missedpages-special-page-title": "Промашени страници",
+	"missedpages-count": "Број",
+	"missedpages-page": "Страница",
+	"missedpages-actions": "Дејства",
+	"missedpages-redirect": "Пренасочување",
+	"missedpages-redirect-desc": "Стави пренасочување на страницава.",
+	"missedpages-redirect-comment": "Ставено пренасочување со Отсутни страници",
+	"missedpages-delete": "Избриши",
+	"missedpages-delete-desc": "Избриши ги ставките за страницава од дневникот.",
+	"missedpages-ignore": "Занемари",
+	"missedpages-ignore-desc": "Занемари ја страницава во иднина кога ќе даде грешка 404."
+}

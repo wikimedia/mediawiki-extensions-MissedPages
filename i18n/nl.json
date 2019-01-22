@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98"
+		]
+	},
+	"missedpages": "Ontbrekende pagina's",
+	"missedpages-desc": "Maakt een samenvatting van 404 (pagina niet gevonden) fouten en toont een snelle manier om deze te laten doorverwijzen of ze te negeren.",
+	"missedpages-special-page-title": "Ontbrekende pagina's",
+	"missedpages-count": "Aantal",
+	"missedpages-page": "Pagina",
+	"missedpages-actions": "Handelingen",
+	"missedpages-redirect": "Doorverwijzing",
+	"missedpages-redirect-desc": "Voeg een doorverwijzing voor deze pagina toe.",
+	"missedpages-redirect-comment": "Doorverwijzing toegevoegd door OntbrekendePagina's.",
+	"missedpages-delete": "Verwijderen",
+	"missedpages-delete-desc": "Verwijder de regels over deze pagina uit het logboek.",
+	"missedpages-ignore": "Negeren",
+	"missedpages-ignore-desc": "Negeer deze pagina wanneer het opnieuw een 404 fout produceerd."
+}

@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"missedpages": "الصفحات المفقودة",
+	"missedpages-desc": "يلخص أخطاء 404 (لم يتم العثور على الصفحة)، ويوفر طريقة سريعة لتحويلها أو تجاهلها.",
+	"missedpages-special-page-title": "الصفحات المفقودة",
+	"missedpages-count": "العدد",
+	"missedpages-page": "الصفحة",
+	"missedpages-actions": "الأفعال",
+	"missedpages-redirect": "تحويل",
+	"missedpages-redirect-desc": "أضف تحويلة لهذه الصفحة.",
+	"missedpages-redirect-comment": "تحويلة أضافها \"الصفحات المفقودة\".",
+	"missedpages-delete": "حذف",
+	"missedpages-delete-desc": "حذف إدخالات هذه الصفحة من السجل.",
+	"missedpages-ignore": "تجاهل",
+	"missedpages-ignore-desc": "تجاهل هذه الصفحة في المستقبل عندما تنتج خطأ 404."
+}

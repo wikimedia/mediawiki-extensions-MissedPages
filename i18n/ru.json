@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Movses",
+			"Vlad5250"
+		]
+	},
+	"missedpages": "Отсутствующие страницы",
+	"missedpages-desc": "Даёт просмотр ошибок 404 (страница не найдена) и обеспечивает быстрый способ их перенаправления или игнорирования.",
+	"missedpages-special-page-title": "Отсутствующие страницы",
+	"missedpages-count": "Количество",
+	"missedpages-page": "Страница",
+	"missedpages-actions": "Действия",
+	"missedpages-redirect": "Перенаправление",
+	"missedpages-redirect-desc": "Добавить перенаправление на эту страницу.",
+	"missedpages-redirect-comment": "Добавлено перенаправление через Отсутствующие страницы",
+	"missedpages-delete": "Удалить",
+	"missedpages-delete-desc": "Удалить записи журнала для этой страницы.",
+	"missedpages-ignore": "Игнорировать",
+	"missedpages-ignore-desc": "Игнорировать эту страницу в будущем, когда ей снова будет возвращена ошибка 404."
+}

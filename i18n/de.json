@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"missedpages": "Fehlende Seiten",
+	"missedpages-desc": "Fasst 404-Fehler (Seite nicht gefunden) zusammen und bietet einen schnellen Weg, um sie weiterzuleiten oder zu ignorieren",
+	"missedpages-special-page-title": "Fehlende Seiten",
+	"missedpages-count": "Anzahl",
+	"missedpages-page": "Seite",
+	"missedpages-actions": "Aktionen",
+	"missedpages-redirect": "Weiterleitung",
+	"missedpages-redirect-desc": "Eine Weiterleitung für diese Seite hinzufügen",
+	"missedpages-redirect-comment": "Durch MissedPages hinzugefügte Weiterleitung",
+	"missedpages-delete": "Löschen",
+	"missedpages-delete-desc": "Einträge dieser Seite aus dem Logbuch löschen",
+	"missedpages-ignore": "Ignorieren",
+	"missedpages-ignore-desc": "Diese Seite zukünftig ignorieren, wenn sie einen 404-Fehler produziert."
+}
