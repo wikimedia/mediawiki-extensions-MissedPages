@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"missedpages-page": "문서",
+	"missedpages-redirect": "넘겨주기",
+	"missedpages-redirect-desc": "이 문서를 위한 넘겨주기를 추가합니다.",
+	"missedpages-delete": "삭제",
+	"missedpages-ignore": "무시",
+	"missedpages-ignore-desc": "404 오류 발생 시 앞으로 이 페이지를 무시합니다."
+}

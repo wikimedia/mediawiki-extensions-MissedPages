@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"missedpages": "缺少頁面",
+	"missedpages-desc": "摘要 404（找不到頁面）錯誤，提供重新導向或忽略其頁面的快速方法。",
+	"missedpages-special-page-title": "缺少頁面",
+	"missedpages-count": "次數",
+	"missedpages-page": "頁面",
+	"missedpages-actions": "操作",
+	"missedpages-redirect": "重新導向",
+	"missedpages-redirect-desc": "添加此頁面的重新導向。",
+	"missedpages-redirect-comment": "由 MissedPages 添加的重新導向。",
+	"missedpages-delete": "刪除",
+	"missedpages-delete-desc": "刪除來自日誌的此頁面項目。",
+	"missedpages-ignore": "忽略",
+	"missedpages-ignore-desc": "當發生 404 錯誤時，往後忽略此頁面。"
+}

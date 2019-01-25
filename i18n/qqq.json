@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Samwilson"
+			"Samwilson",
+			"Umherirrender"
 		]
 	},
-	"missedpages": "Title for the link to Special:MissedPages on Special:SpecialPages.",
+	"missedpages": "{{name}}\n{{doc-special}}\nTitle for the link to Special:MissedPages on Special:SpecialPages.",
 	"missedpages-desc": "{{desc|name=MissedPages|url=https://www.mediawiki.org/wiki/Extension:MissedPages}}",
 	"missedpages-special-page-title": "Title for Special:MissedPages",
 	"missedpages-count": "Column header on Special:MissedPages for the column that contains the hit counts for pages.",
