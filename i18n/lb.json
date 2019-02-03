@@ -4,9 +4,11 @@
 			"Robby"
 		]
 	},
+	"missedpages-count": "Zuel",
 	"missedpages-page": "Säit",
 	"missedpages-actions": "Aktiounen",
 	"missedpages-redirect": "Viruleedung",
+	"missedpages-redirect-desc": "Eng Viruleedung fir dës Säit derbäisetzen",
 	"missedpages-delete": "Läschen",
 	"missedpages-ignore": "Ignoréieren"
 }
