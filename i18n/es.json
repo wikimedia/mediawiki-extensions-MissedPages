@@ -1,11 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Carlosmg.dg"
+			"Carlosmg.dg",
+			"Fitoschido"
 		]
 	},
 	"missedpages-page": "Página",
 	"missedpages-actions": "Acciones",
+	"missedpages-redirect": "Redirección",
 	"missedpages-redirect-desc": "Añadir una redirección para esta página.",
 	"missedpages-delete": "Eliminar",
 	"missedpages-ignore": "Ignorar"
