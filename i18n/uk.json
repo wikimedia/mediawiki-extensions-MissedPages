@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"missedpages-desc": "Підсумує помилки 404 (сторінка не знайдена) і забезпечує швидкий спосіб для їхнього перенаправлення або ігнорування.",
+	"missedpages-count": "Кількість",
+	"missedpages-page": "Сторінка",
+	"missedpages-actions": "Дії",
+	"missedpages-redirect": "Перенаправлення",
+	"missedpages-redirect-desc": "Додати перенаправлення до цієї сторінки.",
+	"missedpages-redirect-comment": "Додано перенаправлення через MissedPages.",
+	"missedpages-delete": "Вилучити",
+	"missedpages-delete-desc": "Вилучити записи журналу для цієї сторінки.",
+	"missedpages-ignore": "Ігнорувати",
+	"missedpages-ignore-desc": "Ігнорувати цю сторінку у майбутньому, коли вона даватиме помилку 404."
+}
