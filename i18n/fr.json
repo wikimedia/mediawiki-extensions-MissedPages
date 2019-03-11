@@ -1,12 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Wladek92"
+			"Wladek92",
+			"Gomoko"
 		]
 	},
 	"missedpages": "Pages manquées",
 	"missedpages-desc": "Résume les erreurs 404 (page non trouvée), et fournit une manière rapide de les rediriger ou de les ignorer.",
 	"missedpages-special-page-title": "Pages manquantes",
+	"missedpages-trend": "Tendance",
+	"missedpages-sparkline-title": "$1 pages vues sur $2 jours",
 	"missedpages-count": "Total",
 	"missedpages-page": "Page",
 	"missedpages-actions": "Actions",

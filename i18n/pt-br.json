@@ -7,6 +7,8 @@
 	"missedpages": "Páginas perdidas",
 	"missedpages-desc": "Resume erros 404 (página não encontrada) e fornece uma maneira rápida de redirecionar ou ignorá-los.",
 	"missedpages-special-page-title": "Páginas perdidas",
+	"missedpages-trend": "Tendência",
+	"missedpages-sparkline-title": "Visualizações de página de $1 ao longo de $2 dias",
 	"missedpages-count": "Contagem",
 	"missedpages-page": "Página",
 	"missedpages-actions": "Ações",
