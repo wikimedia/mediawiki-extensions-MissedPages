@@ -64,15 +64,16 @@ class SpecialMissedPages extends SpecialPage {
 			$postVals = $this->getRequest()->getPostValues();
 			$redirect = false;
 			if ( isset( $postVals['redirect'] ) && $this->getUser()->isAllowed( $this->redirectRight ) ) {
-				$log->redirect( $postVals['redirect'], $postVals['redirect_target'][$postVals['redirect']] );
+				$redirectTarget = $postVals['redirect_target'][$postVals['redirect']];
+				$this->log->redirect( $postVals['redirect'], $redirectTarget );
 				$redirect = true;
 			}
 			if ( isset( $postVals['ignore'] ) && $this->getUser()->isAllowed( $this->ignoreRight ) ) {
-				$log->ignore( $postVals['ignore'] );
+				$this->log->ignore( $postVals['ignore'] );
 				$redirect = true;
 			}
 			if ( isset( $postVals['delete'] ) && $this->getUser()->isAllowed( $this->deleteRight ) ) {
-				$log->delete( $postVals['delete'] );
+				$this->log->delete( $postVals['delete'] );
 				$redirect = true;
 			}
 			if ( $redirect ) {
