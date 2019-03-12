@@ -8,7 +8,7 @@
 	"missedpages-desc": "Fasst 404-Fehler (Seite nicht gefunden) zusammen und bietet einen schnellen Weg, um sie weiterzuleiten oder zu ignorieren",
 	"missedpages-special-page-title": "Fehlende Seiten",
 	"missedpages-trend": "Trend",
-	"missedpages-sparkline-title": "$1 Seitenaufrufe über $2 Tage",
+	"missedpages-sparkline-title": "{{PLURAL:$1|Ein Seitenaufruf|$1 Seitenaufrufe}} über {{PLURAL:$2|einen Tag|$2 Tage}}",
 	"missedpages-count": "Anzahl",
 	"missedpages-page": "Seite",
 	"missedpages-actions": "Aktionen",

@@ -9,7 +9,7 @@
 	"missedpages-desc": "Résume les erreurs 404 (page non trouvée), et fournit une manière rapide de les rediriger ou de les ignorer.",
 	"missedpages-special-page-title": "Pages manquantes",
 	"missedpages-trend": "Tendance",
-	"missedpages-sparkline-title": "$1 pages vues sur $2 jours",
+	"missedpages-sparkline-title": "$1 {{PLURAL:$1|page vue|pages vues}} sur $2 {{PLURAL:$2|jour|jours}}",
 	"missedpages-count": "Total",
 	"missedpages-page": "Page",
 	"missedpages-actions": "Actions",

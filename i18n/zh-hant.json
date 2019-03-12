@@ -8,7 +8,7 @@
 	"missedpages-desc": "摘要 404（找不到頁面）錯誤，提供重新導向或忽略其頁面的快速方法。",
 	"missedpages-special-page-title": "缺少頁面",
 	"missedpages-trend": "趨勢",
-	"missedpages-sparkline-title": "超過 $2 日的 $1 次頁面檢視數",
+	"missedpages-sparkline-title": "超過 $2 {{PLURAL:$2|日}}的 $1 次頁面{{PLURAL:$1|檢視數}}",
 	"missedpages-count": "次數",
 	"missedpages-page": "頁面",
 	"missedpages-actions": "操作",

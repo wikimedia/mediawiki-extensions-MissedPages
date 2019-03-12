@@ -8,7 +8,7 @@
 	"missedpages-desc": "يلخص أخطاء 404 (لم يتم العثور على الصفحة)، ويوفر طريقة سريعة لتحويلها أو تجاهلها.",
 	"missedpages-special-page-title": "الصفحات المفقودة",
 	"missedpages-trend": "الاتجاه",
-	"missedpages-sparkline-title": "$1 مشاهدات للصفحة على مدى $2 أيام",
+	"missedpages-sparkline-title": "$1 {{PLURAL:$1|مشاهدة|مشاهدات}} للصفحة على مدى $2 {{PLURAL:$2|يوم|أيام}}",
 	"missedpages-count": "العدد",
 	"missedpages-page": "الصفحة",
 	"missedpages-actions": "الأفعال",
