@@ -9,7 +9,7 @@
 
 	"missedpages-special-page-title": "Missed Pages",
 	"missedpages-trend": "Trend",
-	"missedpages-sparkline-title": "$1 page views over $2 days",
+	"missedpages-sparkline-title": "$1 {{PLURAL:$1|page view|page views}} over $2 {{PLURAL:$2|day|days}}",
 	"missedpages-count": "Count",
 	"missedpages-page": "Page",
 	"missedpages-actions": "Actions",
