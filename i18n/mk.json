@@ -7,6 +7,8 @@
 	"missedpages": "Промашени страници",
 	"missedpages-desc": "Дава преглед на грешки 404 (непронајдена страница) и овозможува брз начин за нивно пренасочување или занемарување.",
 	"missedpages-special-page-title": "Промашени страници",
+	"missedpages-trend": "Склоност",
+	"missedpages-sparkline-title": "$1 {{PLURAL:$1|посета|посети}} во текот на $2 {{PLURAL:$2|ден|дена}}",
 	"missedpages-count": "Број",
 	"missedpages-page": "Страница",
 	"missedpages-actions": "Дејства",
