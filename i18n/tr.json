@@ -7,6 +7,8 @@
 	"missedpages": "Eksik sayfalar",
 	"missedpages-desc": "404 (sayfa bulunamadı) hatalarını özetler ve bunları yönlendirmek veya yok saymak için hızlı bir yol sağlar.",
 	"missedpages-special-page-title": "Eksik Sayfalar",
+	"missedpages-trend": "Trend",
+	"missedpages-sparkline-title": "$2 {{PLURAL:$2|günde|günde}} $1 {{PLURAL:$1|sayfa görünümü|sayfa görünümü}}",
 	"missedpages-count": "Sayı",
 	"missedpages-page": "Sayfa",
 	"missedpages-actions": "İşlemler",
