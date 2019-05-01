@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"missedpages": "Páginas não encontradas",
+	"missedpages-desc": "Resume os erros 404 (página não encontrada) e fornece uma maneira rápida de redirecioná-los ou ignorá-los.",
+	"missedpages-special-page-title": "Páginas não encontradas",
+	"missedpages-trend": "Tendência",
+	"missedpages-sparkline-title": "$1 {{PLURAL:$1|visualização de página|visualizações de páginas}} em $2 {{PLURAL:$2|dia|dias}}",
+	"missedpages-count": "Contagem",
+	"missedpages-page": "Página",
+	"missedpages-actions": "Operações",
+	"missedpages-redirect": "Redirecionamento",
+	"missedpages-redirect-desc": "Adicionar um redirecionamento para esta página.",
+	"missedpages-redirect-comment": "Redirecionamento adicionado por PáginasNãoEncontradas.",
+	"missedpages-delete": "Eliminar",
+	"missedpages-delete-desc": "Eliminar do registo as entradas desta página.",
+	"missedpages-ignore": "Ignorar",
+	"missedpages-ignore-desc": "Ignore esta página de futuro quando ela produzir um erro 404."
+}
