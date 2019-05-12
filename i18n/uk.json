@@ -5,6 +5,8 @@
 		]
 	},
 	"missedpages-desc": "Підсумує помилки 404 (сторінка не знайдена) і забезпечує швидкий спосіб для їхнього перенаправлення або ігнорування.",
+	"missedpages-trend": "Тенденція",
+	"missedpages-sparkline-title": "$1 {{PLURAL:$1|перегляд|перегляди|переглядів}} протягом $2 {{PLURAL:$2|дня|днів}}",
 	"missedpages-count": "Кількість",
 	"missedpages-page": "Сторінка",
 	"missedpages-actions": "Дії",
