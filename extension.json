@@ -12,6 +12,7 @@
 	"descriptionmsg": "missedpages-desc",
 	"license-name": "MIT",
 	"type": "extension",
+	"load_composer_autoloader": true,
 	"AutoloadNamespaces": {
 		"MediaWiki\\Extension\\MissedPages\\": "includes/"
 	},
