@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Mjälten"
 		]
 	},
-	"missedpages-sparkline-title": "$1 {{PLURAL:$1|sidvisning|sidvisningar}} över $2 {{PLURAL:$2|dag|dagar}}"
+	"missedpages-sparkline-title": "$1 {{PLURAL:$1|sidvisning|sidvisningar}} över $2 {{PLURAL:$2|dag|dagar}}",
+	"missedpages-delete": "Radera"
 }
