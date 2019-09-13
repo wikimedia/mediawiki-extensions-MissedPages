@@ -1,10 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Vlad5250"
+			"Vlad5250",
+			"Movses"
 		]
 	},
+	"missedpages": "Відсутні сторінки",
 	"missedpages-desc": "Підсумує помилки 404 (сторінка не знайдена) і забезпечує швидкий спосіб для їхнього перенаправлення або ігнорування.",
+	"missedpages-special-page-title": "Відсутні сторінки",
 	"missedpages-trend": "Тенденція",
 	"missedpages-sparkline-title": "$1 {{PLURAL:$1|перегляд|перегляди|переглядів}} протягом $2 {{PLURAL:$2|дня|днів}}",
 	"missedpages-count": "Кількість",
