@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"missedpages": "Manglende sider",
+	"missedpages-desc": "Gir et sammendrag av 404-feil (side ikke funnet), og gir en rask måte å omdirigere eller ignorere dem.",
+	"missedpages-special-page-title": "Manglende sider",
+	"missedpages-trend": "Trend",
+	"missedpages-sparkline-title": "$1 {{PLURAL:$1|sidevisning|sidevisninger}} på {{PLURAL:$2|én dag|$2 dager}}",
+	"missedpages-count": "Antall",
+	"missedpages-page": "Side",
+	"missedpages-actions": "Handling",
+	"missedpages-redirect": "Omdirigering",
+	"missedpages-redirect-desc": "Legg til en omdirigering for denne siden.",
+	"missedpages-redirect-comment": "Omdirigering lagt til av MissedPages.",
+	"missedpages-delete": "Slett",
+	"missedpages-delete-desc": "Slett denne sidens oppføring fra loggen.",
+	"missedpages-ignore": "Ignorer",
+	"missedpages-ignore-desc": "Ignorer denne siden i fremtiden når den gir en 404-feil."
+}
