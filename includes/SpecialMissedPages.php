@@ -57,6 +57,16 @@ class SpecialMissedPages extends SpecialPage {
 		$out->addHelpLink( 'Help:Extension:MissedPages' );
 		$out->addModules( 'ext.missedpages' );
 
+		$out->addHTML( $this->getNavLinks( $sub ) );
+
+		if ( in_array( $sub, [ 'recent', 'ignored' ] ) ) {
+			$pagerClass = 'MediaWiki\\Extension\\MissedPages\\' . ucfirst( $sub ) . 'Pager';
+			/* @var TablePager One of RecentPager or IgnoredPager. */
+			$pager = new $pagerClass( $this->getContext(), $this->getLinkRenderer() );
+			$out->addParserOutputContent( $pager->getFullOutput() );
+			return;
+		}
+
 		$this->log = new MissedPages();
 
 		// Save any submitted data.
@@ -96,7 +106,7 @@ class SpecialMissedPages extends SpecialPage {
 		);
 		$table = Html::rawElement(
 			'table',
-			[ 'class' => 'wikitable ext-missedpages' ],
+			[ 'class' => 'mw-datatable ext-missedpages' ],
 			$headers . implode( "\n", $rows )
 		);
 		$form = Html::rawElement( 'form', [
@@ -105,6 +115,31 @@ class SpecialMissedPages extends SpecialPage {
 			'class' => 'ext-missedpages',
 		], $table );
 		$out->addHTML( $form );
+	}
+
+	/**
+	 * Get the HTML for the MissedPages navigation menu.
+	 * @param string $currentSubPage The current subpage name, or empty for the default page.
+	 * @return string
+	 */
+	protected function getNavLinks( $currentSubPage ) {
+		// Map subpage names to link targets.
+		$links = [
+			'' => $this->getPageTitle(),
+			'recent' => $this->getPageTitle()->getSubpage( 'recent' ),
+			'ignored' => $this->getPageTitle()->getSubpage( 'ignored' ),
+		];
+		// Build HTML for each link.
+		$navLinks = [];
+		foreach ( $links as $name => $target ) {
+			$msg = $this->msg( 'missedpages-nav' . ( $name ? "-$name" : '' ) );
+			$navLinks[] = $name === strval( $currentSubPage )
+				? Html::element( 'strong', [], $msg )
+				: $this->getLinkRenderer()->makeLink( $target, $msg );
+		}
+		// Combine all links as one list.
+		$pipeList = $this->getLanguage()->pipeList( $navLinks );
+		return "[ $pipeList ]";
 	}
 
 	/**

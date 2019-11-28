@@ -8,9 +8,15 @@
 	"missedpages-desc": "Summarizes 404 (page not found) errors, and provides a quick way to redirect or ignore them.",
 
 	"missedpages-special-page-title": "Missed Pages",
+	"missedpages-nav": "Popular",
+	"missedpages-nav-recent": "Recent",
+	"missedpages-nav-ignored": "Ignored",
+
 	"missedpages-trend": "Trend",
 	"missedpages-sparkline-title": "$1 {{PLURAL:$1|page view|page views}} over $2 {{PLURAL:$2|day|days}}",
 	"missedpages-count": "Count",
+	"missedpages-id": "ID",
+	"missedpages-datetime": "Date and time",
 	"missedpages-page": "Page",
 	"missedpages-actions": "Actions",
 	"missedpages-redirect": "Redirect",
