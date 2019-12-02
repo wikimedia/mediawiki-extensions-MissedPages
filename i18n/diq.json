@@ -4,8 +4,13 @@
 			"Mirzali"
 		]
 	},
+	"missedpages-nav": "Demane",
+	"missedpages-nav-recent": "Peyên",
+	"missedpages-nav-ignored": "Nêhesabnaye",
 	"missedpages-trend": "Meyıl",
 	"missedpages-count": "Amar",
+	"missedpages-id": "Kamiye",
+	"missedpages-datetime": "Tarix û wext",
 	"missedpages-page": "Pele",
 	"missedpages-redirect": "Serçarnayış",
 	"missedpages-delete": "Bestere",

@@ -4,6 +4,11 @@
 			"Beta16"
 		]
 	},
+	"missedpages-nav": "Popolare",
+	"missedpages-nav-recent": "Recenti",
+	"missedpages-nav-ignored": "Ignorato",
+	"missedpages-id": "ID",
+	"missedpages-datetime": "Data e ora",
 	"missedpages-page": "Pagina",
 	"missedpages-actions": "Azioni",
 	"missedpages-delete": "Cancella",

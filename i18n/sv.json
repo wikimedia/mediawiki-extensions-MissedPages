@@ -5,6 +5,11 @@
 			"Mjälten"
 		]
 	},
+	"missedpages-nav": "Populära",
+	"missedpages-nav-recent": "Senaste",
+	"missedpages-nav-ignored": "Ignorerade",
 	"missedpages-sparkline-title": "$1 {{PLURAL:$1|sidvisning|sidvisningar}} över $2 {{PLURAL:$2|dag|dagar}}",
+	"missedpages-id": "ID",
+	"missedpages-datetime": "Datum och tid",
 	"missedpages-delete": "Radera"
 }

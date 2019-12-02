@@ -2,13 +2,16 @@
 	"@metadata": {
 		"authors": [
 			"Movses",
-			"Vlad5250"
+			"Vlad5250",
+			"Kreal39"
 		]
 	},
 	"missedpages": "Отсутствующие страницы",
 	"missedpages-desc": "Даёт просмотр ошибок 404 (страница не найдена) и обеспечивает быстрый способ их перенаправления или игнорирования.",
 	"missedpages-special-page-title": "Отсутствующие страницы",
+	"missedpages-nav-ignored": "Игнорирован",
 	"missedpages-count": "Количество",
+	"missedpages-id": "ID",
 	"missedpages-page": "Страница",
 	"missedpages-actions": "Действия",
 	"missedpages-redirect": "Перенаправление",
