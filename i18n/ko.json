@@ -4,7 +4,11 @@
 			"Ykhwong"
 		]
 	},
+	"missedpages-nav-recent": "최근",
+	"missedpages-nav-ignored": "무시됨",
 	"missedpages-trend": "트렌드",
+	"missedpages-id": "ID",
+	"missedpages-datetime": "날짜 및 시간",
 	"missedpages-page": "문서",
 	"missedpages-redirect": "넘겨주기",
 	"missedpages-redirect-desc": "이 문서를 위한 넘겨주기를 추가합니다.",

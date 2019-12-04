@@ -1,15 +1,21 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hedda"
+			"Hedda",
+			"BaRaN6161 TURK"
 		]
 	},
 	"missedpages": "Eksik sayfalar",
 	"missedpages-desc": "404 (sayfa bulunamadı) hatalarını özetler ve bunları yönlendirmek veya yok saymak için hızlı bir yol sağlar.",
 	"missedpages-special-page-title": "Eksik Sayfalar",
+	"missedpages-nav": "Popüler",
+	"missedpages-nav-recent": "Son",
+	"missedpages-nav-ignored": "Yoksayıldı",
 	"missedpages-trend": "Trend",
 	"missedpages-sparkline-title": "$2 {{PLURAL:$2|günde|günde}} $1 {{PLURAL:$1|sayfa görünümü|sayfa görünümü}}",
 	"missedpages-count": "Sayı",
+	"missedpages-id": "Kimlik",
+	"missedpages-datetime": "Tarih ve zaman",
 	"missedpages-page": "Sayfa",
 	"missedpages-actions": "İşlemler",
 	"missedpages-redirect": "Yönlendirme",
