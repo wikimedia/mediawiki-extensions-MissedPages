@@ -4,8 +4,13 @@
 			"Robby"
 		]
 	},
+	"missedpages-nav": "Beléift",
+	"missedpages-nav-recent": "Rezent",
+	"missedpages-nav-ignored": "Ignoréiert",
 	"missedpages-trend": "Tendenz",
 	"missedpages-count": "Zuel",
+	"missedpages-id": "Nummer (ID)",
+	"missedpages-datetime": "Datum an Auerzäit",
 	"missedpages-page": "Säit",
 	"missedpages-actions": "Aktiounen",
 	"missedpages-redirect": "Viruleedung",
