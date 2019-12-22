@@ -1,13 +1,20 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mainframe98"
+			"Mainframe98",
+			"Bdijkstra"
 		]
 	},
 	"missedpages": "Ontbrekende pagina's",
 	"missedpages-desc": "Maakt een samenvatting van 404 (pagina niet gevonden) fouten en toont een snelle manier om deze te laten doorverwijzen of ze te negeren.",
 	"missedpages-special-page-title": "Ontbrekende pagina's",
+	"missedpages-nav": "Populair",
+	"missedpages-nav-recent": "Recent",
+	"missedpages-nav-ignored": "Genegeerd",
+	"missedpages-trend": "Trend",
+	"missedpages-sparkline-title": "$1 paginavertonging{{PLURAL:$1||en}} over $2 dag{{PLURAL:$2||en}}",
 	"missedpages-count": "Aantal",
+	"missedpages-datetime": "Datum en tijd",
 	"missedpages-page": "Pagina",
 	"missedpages-actions": "Handelingen",
 	"missedpages-redirect": "Doorverwijzing",
