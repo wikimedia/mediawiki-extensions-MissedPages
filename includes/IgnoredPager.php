@@ -2,6 +2,7 @@
 
 namespace MediaWiki\Extension\MissedPages;
 
+use MediaWiki\MediaWikiServices;
 use TablePager;
 use Title;
 
@@ -56,7 +57,9 @@ class IgnoredPager extends TablePager {
 	 */
 	public function formatValue( $name, $value ) {
 		if ( $name === 'mp_page_title' ) {
-			return $this->getLinkRenderer()->makeLink( Title::newFromText( $value ) );
+			return MediaWikiServices::getInstance()
+				->getLinkRenderer()
+				->makeLink( Title::newFromText( $value ) );
 		}
 		return $value;
 	}

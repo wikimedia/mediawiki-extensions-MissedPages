@@ -71,7 +71,7 @@ class SpecialMissedPages extends SpecialPage {
 
 		// Save any submitted data.
 		if ( $this->getRequest()->wasPosted() ) {
-			$postVals = $this->getRequest()->getPostValues();
+			$postVals = $this->getRequest()->getValues();
 			$redirect = false;
 			if ( isset( $postVals['redirect'] ) && $this->getUser()->isAllowed( $this->redirectRight ) ) {
 				$redirectTarget = $postVals['redirect_target'][$postVals['redirect']];
