@@ -2,15 +2,21 @@
 	"@metadata": {
 		"authors": [
 			"Vlad5250",
-			"Movses"
+			"Movses",
+			"Piramidion"
 		]
 	},
 	"missedpages": "Відсутні сторінки",
 	"missedpages-desc": "Підсумує помилки 404 (сторінка не знайдена) і забезпечує швидкий спосіб для їхнього перенаправлення або ігнорування.",
 	"missedpages-special-page-title": "Відсутні сторінки",
+	"missedpages-nav": "Популярні",
+	"missedpages-nav-recent": "Останні",
+	"missedpages-nav-ignored": "Проігноровано",
 	"missedpages-trend": "Тенденція",
 	"missedpages-sparkline-title": "$1 {{PLURAL:$1|перегляд|перегляди|переглядів}} протягом $2 {{PLURAL:$2|дня|днів}}",
 	"missedpages-count": "Кількість",
+	"missedpages-id": "ID",
+	"missedpages-datetime": "Дата й час",
 	"missedpages-page": "Сторінка",
 	"missedpages-actions": "Дії",
 	"missedpages-redirect": "Перенаправлення",
