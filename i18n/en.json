@@ -5,6 +5,7 @@
 		]
 	},
 	"missedpages": "Missed pages",
+	"missedpages-extensionname": "Missed pages",
 	"missedpages-desc": "Summarizes 404 (page not found) errors, and provides a quick way to redirect or ignore them.",
 
 	"missedpages-special-page-title": "Missed Pages",

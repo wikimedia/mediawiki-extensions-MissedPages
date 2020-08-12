@@ -6,7 +6,8 @@
 			"Zoranzoki21"
 		]
 	},
-	"missedpages": "{{name}}\n{{doc-special}}\nTitle for the link to Special:MissedPages on Special:SpecialPages.",
+	"missedpages": "{{doc-special}}\nTitle for the link to Special:MissedPages on Special:SpecialPages.",
+	"missedpages-extensionname": "{{name}}",
 	"missedpages-desc": "{{desc|name=MissedPages|url=https://www.mediawiki.org/wiki/Extension:MissedPages}}",
 	"missedpages-special-page-title": "Title for Special:MissedPages",
 	"missedpages-nav": "Navigation-list label text.",
