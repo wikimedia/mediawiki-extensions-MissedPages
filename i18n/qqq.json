@@ -16,7 +16,7 @@
 	"missedpages-trend": "Column header on Special:MissedPages for the column that contains a sparkline chart of the history of misses for a single page.",
 	"missedpages-sparkline-title": "Tooltip for the sparkline. $1 is the total number of page views. $2 is the total number of days included in the sparkline.",
 	"missedpages-count": "Column header on Special:MissedPages for the column that contains the hit counts for pages.",
-	"missedpages-id": "Column header on Special:MissedPages for the column that contains the record ID.\n{{optional}}",
+	"missedpages-id": "Column header on Special:MissedPages for the column that contains the record ID.",
 	"missedpages-datetime": "Column header on Special:MissedPages for the column that contains the date and time.",
 	"missedpages-page": "Column header on Special:MissedPages for the column that contains the links to the pages.",
 	"missedpages-actions": "Column header on Special:MissedPages for the column that contains the action buttons etc.",
