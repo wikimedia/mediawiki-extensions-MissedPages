@@ -2,14 +2,28 @@
 	"@metadata": {
 		"authors": [
 			"Mjälten",
+			"Sabelöga",
 			"WikiPhoenix"
 		]
 	},
+	"missedpages": "Saknade sidor",
+	"missedpages-desc": "Sammanfattar 404-fel (sidan hittades inte), och ger ett snabbt sätt att omdirigera eller ignorera dem.",
+	"missedpages-special-page-title": "Saknade sidor",
 	"missedpages-nav": "Populära",
 	"missedpages-nav-recent": "Senaste",
 	"missedpages-nav-ignored": "Ignorerade",
+	"missedpages-trend": "Trend",
 	"missedpages-sparkline-title": "$1 {{PLURAL:$1|sidvisning|sidvisningar}} över $2 {{PLURAL:$2|dag|dagar}}",
+	"missedpages-count": "Antal",
 	"missedpages-id": "ID",
 	"missedpages-datetime": "Datum och tid",
-	"missedpages-delete": "Radera"
+	"missedpages-page": "Sida",
+	"missedpages-actions": "Åtgärder",
+	"missedpages-redirect": "Omdirigering",
+	"missedpages-redirect-desc": "Lägg till en omdirigering för den här sidan.",
+	"missedpages-redirect-comment": "Omdirigering tillagd av MissedPages.",
+	"missedpages-delete": "Radera",
+	"missedpages-delete-desc": "Radera den här sidans inlägg från loggen.",
+	"missedpages-ignore": "Ignorera",
+	"missedpages-ignore-desc": "Ignorera den här sidan i framtiden när den producerar 404-fel."
 }
