@@ -3,10 +3,12 @@
 		"authors": [
 			"Gomoko",
 			"SergeED",
+			"Verdy p",
 			"Wladek92"
 		]
 	},
 	"missedpages": "Pages manquées",
+	"missedpages-extensionname": "Pages manquées",
 	"missedpages-desc": "Résume les erreurs 404 (page non trouvée), et fournit une manière rapide de les rediriger ou de les ignorer.",
 	"missedpages-special-page-title": "Pages manquantes",
 	"missedpages-nav": "Populaire",
