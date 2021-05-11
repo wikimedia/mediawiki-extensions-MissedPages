@@ -5,5 +5,5 @@
 	</rule>
 	<file>.</file>
 	<arg name="extensions" value="php"/>
-	<arg name="encoding" value="utf8"/>
+	<arg name="encoding" value="UTF-8"/>
 </ruleset>
