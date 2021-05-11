@@ -9,6 +9,7 @@ use Title;
 
 class RecentPager extends TablePager {
 
+	/** @var bool */
 	public $mDefaultDirection = IndexPager::DIR_DESCENDING;
 
 	/**

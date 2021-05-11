@@ -12,7 +12,7 @@ use WikitextContentHandler;
  */
 class MissedPages {
 
-	const TABLE_NAME = 'missed_pages';
+	public const TABLE_NAME = 'missed_pages';
 
 	/**
 	 * @param Article $article
