@@ -15,7 +15,7 @@ use WikiPage;
  */
 class MissedPagesTest extends MediaWikiTestCase {
 
-	public function setUp() : void {
+	public function setUp(): void {
 		parent::setUp();
 		$this->tablesUsed = [ 'missed_pages' ];
 	}
