@@ -1,12 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
+			"DDPAT",
 			"Movses",
 			"Piramidion",
 			"Vlad5250"
 		]
 	},
 	"missedpages": "Відсутні сторінки",
+	"missedpages-extensionname": "Відсутні сторінки",
 	"missedpages-desc": "Підсумує помилки 404 (сторінка не знайдена) і забезпечує швидкий спосіб для їхнього перенаправлення або ігнорування.",
 	"missedpages-special-page-title": "Відсутні сторінки",
 	"missedpages-nav": "Популярні",
