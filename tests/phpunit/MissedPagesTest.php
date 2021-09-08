@@ -59,7 +59,11 @@ class MissedPagesTest extends MediaWikiTestCase {
 		// Add a page to the log, and then redirect it.
 		$log->recordMissingPage( $from );
 		static::assertCount( 1, $log->getLogEntries() );
-		$log->redirect( $from->getTitle()->getText(), 'Test_target' );
+		$log->redirect(
+			$from->getTitle()->getText(),
+			'Test_target',
+			$this->getTestUser()->getUser()
+		);
 		static::assertCount( 0, $log->getLogEntries() );
 
 		// Check that the redirect syntax was inserted correctly.

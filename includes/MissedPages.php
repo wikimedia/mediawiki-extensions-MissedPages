@@ -4,6 +4,7 @@ namespace MediaWiki\Extension\MissedPages;
 
 use Article;
 use Title;
+use User;
 use Wikimedia\Rdbms\IResultWrapper;
 use WikitextContentHandler;
 
@@ -104,19 +105,16 @@ class MissedPages {
 	 *
 	 * @param string $from
 	 * @param string $to
+	 * @param User $editor
 	 */
-	public function redirect( $from, $to ) {
-		// TODO: $wgUser is going away, so do something better
-		// phpcs:disable MediaWiki.Usage.DeprecatedGlobalVariables.Deprecated$wgUser
-		global $wgUser;
-
+	public function redirect( $from, $to, User $editor ) {
 		$source = Title::newFromTextThrow( $from );
 		$target = Title::newFromTextThrow( $to );
 		$sourcePage = new Article( $source );
 		$wikitextContentHandler = new WikitextContentHandler();
 		$sourcePage->getPage()->doUserEditContent(
 			$wikitextContentHandler->makeRedirectContent( $target ),
-			$wgUser,
+			$editor,
 			wfMessage( 'missedpages-redirect-comment' )->parse()
 		);
 		$this->delete( $sourcePage->getTitle()->getPrefixedDBkey() );

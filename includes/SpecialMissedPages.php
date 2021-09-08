@@ -75,7 +75,11 @@ class SpecialMissedPages extends SpecialPage {
 			$redirect = false;
 			if ( isset( $postVals['redirect'] ) && $this->getUser()->isAllowed( $this->redirectRight ) ) {
 				$redirectTarget = $postVals['redirect_target'][$postVals['redirect']];
-				$this->log->redirect( $postVals['redirect'], $redirectTarget );
+				$this->log->redirect(
+					$postVals['redirect'],
+					$redirectTarget,
+					$this->getUser()
+				);
 				$redirect = true;
 			}
 			if ( isset( $postVals['ignore'] ) && $this->getUser()->isAllowed( $this->ignoreRight ) ) {
