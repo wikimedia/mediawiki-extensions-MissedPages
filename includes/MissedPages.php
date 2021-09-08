@@ -18,7 +18,7 @@ class MissedPages {
 	 * @param Article $article
 	 */
 	public function recordMissingPage( Article $article ) {
-		$dbw = wfGetDB( DB_MASTER );
+		$dbw = wfGetDB( DB_PRIMARY );
 		$pageTitle = $article->getTitle()->getPrefixedDBkey();
 		// See if it's ignored.
 		$ignored = $dbw->selectRowCount(
@@ -91,7 +91,7 @@ class MissedPages {
 	 * @param string $title
 	 */
 	public function delete( $title ) {
-		$dbw = wfGetDB( DB_MASTER );
+		$dbw = wfGetDB( DB_PRIMARY );
 		$title = Title::newFromText( $title );
 		$conds = [
 			'mp_page_title' => $title->getPrefixedDBkey(),
@@ -106,12 +106,17 @@ class MissedPages {
 	 * @param string $to
 	 */
 	public function redirect( $from, $to ) {
+		// TODO: $wgUser is going away, so do something better
+		// phpcs:disable MediaWiki.Usage.DeprecatedGlobalVariables.Deprecated$wgUser
+		global $wgUser;
+
 		$source = Title::newFromTextThrow( $from );
 		$target = Title::newFromTextThrow( $to );
 		$sourcePage = new Article( $source );
 		$wikitextContentHandler = new WikitextContentHandler();
-		$sourcePage->getPage()->doEditContent(
+		$sourcePage->getPage()->doUserEditContent(
 			$wikitextContentHandler->makeRedirectContent( $target ),
+			$wgUser,
 			wfMessage( 'missedpages-redirect-comment' )->parse()
 		);
 		$this->delete( $sourcePage->getTitle()->getPrefixedDBkey() );
@@ -123,7 +128,7 @@ class MissedPages {
 	 * @param string $titleString
 	 */
 	public function ignore( $titleString ) {
-		$dbw = wfGetDB( DB_MASTER );
+		$dbw = wfGetDB( DB_PRIMARY );
 		$title = Title::newFromText( $titleString );
 		$dbw->startAtomic( __METHOD__ );
 		// Delete previous log entries.
