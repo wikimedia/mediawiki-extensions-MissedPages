@@ -4,7 +4,7 @@ namespace MediaWiki\Extension\MissedPages\Test;
 
 use Article;
 use MediaWiki\Extension\MissedPages\MissedPages;
-use MediaWikiTestCase;
+use MediaWikiIntegrationTestCase;
 use Title;
 use WikiPage;
 
@@ -13,7 +13,7 @@ use WikiPage;
  * @group extensions
  * @group MissedPages
  */
-class MissedPagesTest extends MediaWikiTestCase {
+class MissedPagesTest extends MediaWikiIntegrationTestCase {
 
 	public function setUp(): void {
 		parent::setUp();
