@@ -3,7 +3,8 @@
 		"authors": [
 			"Samwilson",
 			"Umherirrender",
-			"Zoranzoki21"
+			"Zoranzoki21",
+			"Ajeje Brazorf"
 		]
 	},
 	"missedpages": "{{doc-special}}\nTitle for the link to Special:MissedPages on Special:SpecialPages.",
@@ -23,7 +24,7 @@
 	"missedpages-redirect": "Button label for the button next to the text input in which the redirect target is entered.",
 	"missedpages-redirect-desc": "Button tooltop for the 'redirect' button.",
 	"missedpages-redirect-comment": "Edit comment used when creating a redirect page.",
-	"missedpages-delete": "Button label for the button to delete one page's log entries.",
+	"missedpages-delete": "Button label for the button to delete one page's log entries.\n\n{{Identical|Delete}}",
 	"missedpages-delete-desc": "Button tooltip for the 'delete' button.",
 	"missedpages-ignore": "Button label for the button to ignore one page and no longer add it to the log.",
 	"missedpages-ignore-desc": "Button tooltip for the 'ignore' button."
