@@ -21,8 +21,7 @@
 	},
 	"Hooks": {
 		"LoadExtensionSchemaUpdates": [ "MediaWiki\\Extension\\MissedPages\\Hooks::onLoadExtensionSchemaUpdates" ],
-		"ShowMissingArticle": [ "MediaWiki\\Extension\\MissedPages\\Hooks::onShowMissingArticle" ],
-		"BeforePageDisplay ": [ "MediaWiki\\Extension\\MissedPages\\Hooks::onBeforePageDisplay " ]
+		"ShowMissingArticle": [ "MediaWiki\\Extension\\MissedPages\\Hooks::onShowMissingArticle" ]
 	},
 	"MessagesDirs": {
 		"MissedPages": [
