@@ -19,9 +19,14 @@
 	"ExtensionMessagesFiles": {
 		"MissedPagesAlias": "MissedPages.i18n.alias.php"
 	},
+	"HookHandlers": {
+		"main": {
+			"class": "MediaWiki\\Extension\\MissedPages\\Hooks"
+		}
+	},
 	"Hooks": {
-		"LoadExtensionSchemaUpdates": [ "MediaWiki\\Extension\\MissedPages\\Hooks::onLoadExtensionSchemaUpdates" ],
-		"ShowMissingArticle": [ "MediaWiki\\Extension\\MissedPages\\Hooks::onShowMissingArticle" ]
+		"LoadExtensionSchemaUpdates": "main",
+		"ShowMissingArticle": "main"
 	},
 	"MessagesDirs": {
 		"MissedPages": [
