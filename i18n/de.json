@@ -1,15 +1,21 @@
 {
 	"@metadata": {
 		"authors": [
-			"Metalhead64"
+			"Metalhead64",
+			"Gebu"
 		]
 	},
 	"missedpages": "Fehlende Seiten",
 	"missedpages-desc": "Fasst 404-Fehler (Seite nicht gefunden) zusammen und bietet einen schnellen Weg, um sie weiterzuleiten oder zu ignorieren",
 	"missedpages-special-page-title": "Fehlende Seiten",
+	"missedpages-nav": "Beliebt",
+	"missedpages-nav-recent": "Aktuell",
+	"missedpages-nav-ignored": "Ignoriert",
 	"missedpages-trend": "Trend",
 	"missedpages-sparkline-title": "{{PLURAL:$1|Ein Seitenaufruf|$1 Seitenaufrufe}} über {{PLURAL:$2|einen Tag|$2 Tage}}",
 	"missedpages-count": "Anzahl",
+	"missedpages-id": "ID",
+	"missedpages-datetime": "Datum und Uhrzeit",
 	"missedpages-page": "Seite",
 	"missedpages-actions": "Aktionen",
 	"missedpages-redirect": "Weiterleitung",

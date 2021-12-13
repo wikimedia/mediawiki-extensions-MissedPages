@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
-			"Hedda"
+			"Hedda",
+			"MuratTheTurkish"
 		]
 	},
 	"missedpages": "Eksik sayfalar",
@@ -12,15 +13,15 @@
 	"missedpages-nav-recent": "Son",
 	"missedpages-nav-ignored": "Yoksayıldı",
 	"missedpages-trend": "Trend",
-	"missedpages-sparkline-title": "$2 {{PLURAL:$2|günde|günde}} $1 {{PLURAL:$1|sayfa görünümü|sayfa görünümü}}",
+	"missedpages-sparkline-title": "$2 günde $1 sayfa görünümü",
 	"missedpages-count": "Sayı",
 	"missedpages-id": "Kimlik",
 	"missedpages-datetime": "Tarih ve zaman",
 	"missedpages-page": "Sayfa",
-	"missedpages-actions": "İşlemler",
+	"missedpages-actions": "Eylemler",
 	"missedpages-redirect": "Yönlendirme",
 	"missedpages-redirect-desc": "Bu sayfa için bir yönlendirme ekleyin.",
-	"missedpages-redirect-comment": "EksikSayfalar ile yönlendirme yapıldı",
+	"missedpages-redirect-comment": "MissedPages tarafından yönlendirme yapıldı",
 	"missedpages-delete": "Sil",
 	"missedpages-delete-desc": "Bu sayfanın girdilerini günlükten silin.",
 	"missedpages-ignore": "Yoksay",

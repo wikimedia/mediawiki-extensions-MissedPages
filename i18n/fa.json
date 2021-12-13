@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jeeputer"
+		]
+	},
+	"missedpages-nav": "محبوب",
+	"missedpages-nav-recent": "اخیر",
+	"missedpages-count": "شمار",
+	"missedpages-id": "شناسه",
+	"missedpages-datetime": "تاریخ و زمان",
+	"missedpages-page": "صفحه",
+	"missedpages-actions": "کنش‌ها",
+	"missedpages-redirect": "تغییرمسیر",
+	"missedpages-delete": "حذف",
+	"missedpages-ignore": "صرف نظر"
+}
