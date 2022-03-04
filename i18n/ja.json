@@ -1,11 +1,28 @@
 {
 	"@metadata": {
 		"authors": [
-			"Shirayuki"
+			"Shirayuki",
+			"Sou0012"
 		]
 	},
+	"missedpages": "存在しないページ",
+	"missedpages-desc": "404 (ページが見つかりません) エラーをまとめ、リダイレクトまたは無視するための簡単な方法を提供します。",
+	"missedpages-special-page-title": "存在しないページ",
+	"missedpages-nav": "人気",
+	"missedpages-nav-recent": "最近",
+	"missedpages-nav-ignored": "無視",
+	"missedpages-trend": "トレンド",
+	"missedpages-sparkline-title": "$2{{PLURAL:$2|日間}}で$1{{PLURAL:$1|ページビュー}}",
+	"missedpages-count": "件数",
+	"missedpages-id": "ID",
+	"missedpages-datetime": "日付と時刻",
 	"missedpages-page": "ページ",
 	"missedpages-actions": "操作",
+	"missedpages-redirect": "リダイレクト",
+	"missedpages-redirect-desc": "このページへのリダイレクトを追加します。",
+	"missedpages-redirect-comment": "MissedPagesによってリダイレクトが追加されました。",
 	"missedpages-delete": "削除",
-	"missedpages-ignore": "無視"
+	"missedpages-delete-desc": "ログからこのページのエントリーを削除します。",
+	"missedpages-ignore": "無視",
+	"missedpages-ignore-desc": "今後、404エラーが発生した場合は、このページを無視してください。"
 }
