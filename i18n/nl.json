@@ -3,7 +3,8 @@
 		"authors": [
 			"Bdijkstra",
 			"Elroy",
-			"Mainframe98"
+			"Mainframe98",
+			"Rots61"
 		]
 	},
 	"missedpages": "Ontbrekende pagina's",
@@ -15,6 +16,7 @@
 	"missedpages-trend": "Trend",
 	"missedpages-sparkline-title": "$1 paginavertonging{{PLURAL:$1||en}} over $2 dag{{PLURAL:$2||en}}",
 	"missedpages-count": "Aantal",
+	"missedpages-id": "ID",
 	"missedpages-datetime": "Datum en tijd",
 	"missedpages-page": "Pagina",
 	"missedpages-actions": "Handelingen",
