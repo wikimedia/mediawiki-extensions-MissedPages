@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Carlosmg.dg",
+			"DiegoAmbrocio",
 			"Fitoschido"
 		]
 	},
@@ -21,5 +22,7 @@
 	"missedpages-redirect": "Redirección",
 	"missedpages-redirect-desc": "Añadir una redirección para esta página.",
 	"missedpages-delete": "Eliminar",
-	"missedpages-ignore": "Ignorar"
+	"missedpages-delete-desc": "Eliminar las entradas de esta página del registro.",
+	"missedpages-ignore": "Ignorar",
+	"missedpages-ignore-desc": "Ignore esta página en el futuro cuando produzca un error 404."
 }
