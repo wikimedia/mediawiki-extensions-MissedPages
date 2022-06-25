@@ -6,7 +6,6 @@ use Article;
 use MediaWiki\Extension\MissedPages\MissedPages;
 use MediaWikiIntegrationTestCase;
 use Title;
-use WikiPage;
 
 /**
  * @group Database
@@ -67,7 +66,7 @@ class MissedPagesTest extends MediaWikiIntegrationTestCase {
 		static::assertCount( 0, $log->getLogEntries() );
 
 		// Check that the redirect syntax was inserted correctly.
-		$fromPage = new WikiPage( $from->getTitle() );
+		$fromPage = $this->getServiceContainer()->getWikiPageFactory()->newFromTitle( $from->getTitle() );
 		static::assertEquals( '#REDIRECT [[Test target]]',
 			$fromPage->getContent()->getNativeData()
 		);
