@@ -10,6 +10,7 @@ use OOUI\ButtonInputWidget;
 use OOUI\HorizontalLayout;
 use SpecialPage;
 use stdClass;
+use TablePager;
 use Title;
 
 /**
@@ -61,7 +62,7 @@ class SpecialMissedPages extends SpecialPage {
 
 		if ( in_array( $sub, [ 'recent', 'ignored' ] ) ) {
 			$pagerClass = 'MediaWiki\\Extension\\MissedPages\\' . ucfirst( $sub ) . 'Pager';
-			/* @var TablePager One of RecentPager or IgnoredPager. */
+			/** @var TablePager One of RecentPager or IgnoredPager. */
 			$pager = new $pagerClass( $this->getContext(), $this->getLinkRenderer() );
 			$out->addParserOutputContent( $pager->getFullOutput() );
 			return;
