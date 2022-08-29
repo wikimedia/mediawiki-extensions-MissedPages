@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"missedpages": "Paginas mancante",
+	"missedpages-desc": "Summarisa le errores 404 (pagina non trovate) e forni un maniera rapide de rediriger o ignorar los.",
+	"missedpages-special-page-title": "Paginas mancante",
+	"missedpages-nav": "Popular",
+	"missedpages-nav-recent": "Recente",
+	"missedpages-nav-ignored": "Ignorate",
+	"missedpages-trend": "Tendentia",
+	"missedpages-sparkline-title": "$1 visita{{PLURAL:$1||s}} de paginas durante $2 die{{PLURAL:$2||s}}",
+	"missedpages-count": "Total",
+	"missedpages-id": "ID",
+	"missedpages-datetime": "Data e hora",
+	"missedpages-page": "Pagina",
+	"missedpages-actions": "Actiones",
+	"missedpages-redirect": "Rediriger",
+	"missedpages-redirect-desc": "Adder un redirection pro iste pagina.",
+	"missedpages-redirect-comment": "Redirection addite per MissedPages.",
+	"missedpages-delete": "Deler",
+	"missedpages-delete-desc": "Deler le entratas de iste pagina del registro.",
+	"missedpages-ignore": "Ignorar",
+	"missedpages-ignore-desc": "Ignorar iste pagina in le futuro quando illo produce un error 404."
+}
