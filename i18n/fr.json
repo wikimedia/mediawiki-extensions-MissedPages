@@ -3,7 +3,8 @@
 		"authors": [
 			"Gomoko",
 			"SergeED",
-			"Wladek92"
+			"Wladek92",
+			"Verdy p"
 		]
 	},
 	"missedpages": "Pages manquées",
@@ -15,7 +16,7 @@
 	"missedpages-trend": "Tendance",
 	"missedpages-sparkline-title": "$1 {{PLURAL:$1|page vue|pages vues}} sur $2 {{PLURAL:$2|jour|jours}}",
 	"missedpages-count": "Total",
-	"missedpages-id": "ID",
+	"missedpages-id": "Identifiant",
 	"missedpages-datetime": "Date et heure",
 	"missedpages-page": "Page",
 	"missedpages-actions": "Actions",
