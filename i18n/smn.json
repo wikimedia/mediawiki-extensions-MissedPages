@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Seipinne"
+			"Seipinne",
+			"Yupik"
 		]
 	},
 	"missedpages-page": "Sijđo",
-	"missedpages-redirect": "Stivrim"
+	"missedpages-redirect": "Stivrim",
+	"missedpages-delete": "Siho"
 }
