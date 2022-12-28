@@ -4,5 +4,25 @@
 			"Eleassar"
 		]
 	},
-	"missedpages-delete": "Izbriši"
+	"missedpages": "Manjkajoče strani",
+	"missedpages-extensionname": "Manjkajoče strani",
+	"missedpages-desc": "Povzema napake 404 (stran ni najdena) in ponudi hiter način za njihovo preusmeritev ali prezrtje.",
+	"missedpages-special-page-title": "Manjkajoče strani",
+	"missedpages-nav": "Priljubljeno",
+	"missedpages-nav-recent": "Nedavno",
+	"missedpages-nav-ignored": "Prezrto",
+	"missedpages-trend": "Trend",
+	"missedpages-sparkline-title": "$1 {{PLURAL:$1|ogled strani|ogleda strani|ogledi strani}} v $2 {{PLURAL:$2|dnevu|dneh}}",
+	"missedpages-count": "Število",
+	"missedpages-id": "ID",
+	"missedpages-datetime": "Datum in čas",
+	"missedpages-page": "Stran",
+	"missedpages-actions": "Dejanja",
+	"missedpages-redirect": "Preusmeritev",
+	"missedpages-redirect-desc": "Dodajte preusmeritev za to stran.",
+	"missedpages-redirect-comment": "preusmeritev, dodana z MissedPages",
+	"missedpages-delete": "Izbriši",
+	"missedpages-delete-desc": "Izbriši zapise te strani iz dnevnika.",
+	"missedpages-ignore": "Prezri",
+	"missedpages-ignore-desc": "Ta stran naj bo v prihodnosti ob prikazu napake 404 prezrta."
 }
