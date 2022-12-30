@@ -3,10 +3,10 @@
 namespace MediaWiki\Extension\MissedPages;
 
 use Article;
+use MediaWiki\MediaWikiServices;
 use Title;
 use User;
 use Wikimedia\Rdbms\IResultWrapper;
-use WikitextContentHandler;
 
 /**
  * The core of the MissedPages extension.
@@ -111,7 +111,9 @@ class MissedPages {
 		$source = Title::newFromTextThrow( $from );
 		$target = Title::newFromTextThrow( $to );
 		$sourcePage = new Article( $source );
-		$wikitextContentHandler = new WikitextContentHandler();
+		$wikitextContentHandler = MediaWikiServices::getInstance()
+			->getContentHandlerFactory()
+			->getContentHandler( CONTENT_MODEL_WIKITEXT );
 		$sourcePage->getPage()->doUserEditContent(
 			$wikitextContentHandler->makeRedirectContent( $target ),
 			$editor,
