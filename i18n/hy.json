@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kareyac",
 			"Սերգեյ Սաֆարյան"
 		]
 	},
-	"missedpages-actions": "Գործողություններ"
+	"missedpages-actions": "Գործողություններ",
+	"missedpages-delete": "Ջնջել"
 }
