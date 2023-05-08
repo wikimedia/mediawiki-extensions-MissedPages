@@ -4,18 +4,19 @@
 			"Gomoko",
 			"SergeED",
 			"Wladek92",
-			"Verdy p"
+			"Verdy p",
+			"Thibaut120094"
 		]
 	},
 	"missedpages": "Pages manquées",
 	"missedpages-desc": "Résume les erreurs 404 (page non trouvée) et fournit une manière rapide de les rediriger ou de les ignorer.",
-	"missedpages-special-page-title": "Pages manquantes",
+	"missedpages-special-page-title": "Pages manquées",
 	"missedpages-nav": "Populaire",
 	"missedpages-nav-recent": "Récent",
 	"missedpages-nav-ignored": "Ignoré",
 	"missedpages-trend": "Tendance",
-	"missedpages-sparkline-title": "$1 {{PLURAL:$1|page vue|pages vues}} sur $2 {{PLURAL:$2|jour|jours}}",
-	"missedpages-count": "Total",
+	"missedpages-sparkline-title": "$1 page{{PLURAL:$1||s}} vue{{PLURAL:$1||s}} sur $2 jour{{PLURAL:$2||s}}",
+	"missedpages-count": "Nombre",
 	"missedpages-id": "Identifiant",
 	"missedpages-datetime": "Date et heure",
 	"missedpages-page": "Page",
@@ -26,5 +27,5 @@
 	"missedpages-delete": "Supprimer",
 	"missedpages-delete-desc": "Supprimer les entrées de cette page dans le journal.",
 	"missedpages-ignore": "Ignorer",
-	"missedpages-ignore-desc": "Ignorer cette page à l'avenir si elle produit l'erreur 404."
+	"missedpages-ignore-desc": "Ignorer cette page à l’avenir si elle produit une erreur 404."
 }
