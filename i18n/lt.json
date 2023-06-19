@@ -5,8 +5,24 @@
 			"Nokeoo"
 		]
 	},
+	"missedpages": "Praleisti puslapiai",
+	"missedpages-desc": "Apibendrina 404 (puslapis nerastas) klaidas ir suteikia greitą būdą jas peradresuoti arba ignoruoti.",
+	"missedpages-special-page-title": "Praleisti puslapiai",
 	"missedpages-nav": "Populiaru",
 	"missedpages-nav-recent": "Naujausi",
 	"missedpages-nav-ignored": "Ignoruota",
-	"missedpages-datetime": "Data ir laikas"
+	"missedpages-trend": "Tendencija",
+	"missedpages-sparkline-title": "$1 {{PLURAL:$1|puslapio peržiūra|puslapio peržiūros}} per $2 {{PLURAL:$2|dieną|dienas}}",
+	"missedpages-count": "Skaičius",
+	"missedpages-id": "ID",
+	"missedpages-datetime": "Data ir laikas",
+	"missedpages-page": "Puslapis",
+	"missedpages-actions": "Veiksmai",
+	"missedpages-redirect": "Nukreipti",
+	"missedpages-redirect-desc": "Pridėkite šio puslapio nukreipimą.",
+	"missedpages-redirect-comment": "Nukreipimą pridėjo MissedPages.",
+	"missedpages-delete": "Ištrinti",
+	"missedpages-delete-desc": "Ištrinti šio puslapio įrašus iš žurnalo.",
+	"missedpages-ignore": "Ignoruoti",
+	"missedpages-ignore-desc": "Ateityje ignoruoti šį puslapį, kai jis pateiks 404 klaidą."
 }
