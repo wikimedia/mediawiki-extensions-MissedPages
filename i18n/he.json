@@ -5,7 +5,24 @@
 			"Amire80"
 		]
 	},
+	"missedpages": "דפים שלא נטענו",
+	"missedpages-desc": "סיכום שגיאות 404 (דף לא נמצא), ואספקת דרך מהירה להפנות אותם או להתעלם מהם.",
+	"missedpages-special-page-title": "דפים שלא נטענו",
+	"missedpages-nav": "מבוקשים",
+	"missedpages-nav-recent": "אחרונים",
+	"missedpages-nav-ignored": "רשימת התעלמות",
+	"missedpages-trend": "מגמה",
+	"missedpages-sparkline-title": "{{PLURAL:$1|תצוגת דף אחת|$2 צפיות בדף}} למשך {{PLURAL:$2|יום אחד|יומיים|$2 ימים}}",
+	"missedpages-count": "מספר",
 	"missedpages-id": "מזהה",
+	"missedpages-datetime": "תאריך ושעה",
 	"missedpages-page": "דף",
-	"missedpages-delete": "מחיקה"
+	"missedpages-actions": "פעולות",
+	"missedpages-redirect": "הפניה",
+	"missedpages-redirect-desc": "הוסף הפניה עבור הדף הזה.",
+	"missedpages-redirect-comment": "הפניה נוספה על־ידי MissedPages.",
+	"missedpages-delete": "מחיקה",
+	"missedpages-delete-desc": "מחיקת הרשומות של הדף הזה מהיומן.",
+	"missedpages-ignore": "להתעלם",
+	"missedpages-ignore-desc": "להתעלם מנדף הזה בעתיד כאשר הוא יפיק שגיאת 404."
 }
