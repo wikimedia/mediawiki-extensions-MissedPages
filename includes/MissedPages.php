@@ -19,7 +19,9 @@ class MissedPages {
 	 * @param Article $article
 	 */
 	public function recordMissingPage( Article $article ) {
-		$dbw = wfGetDB( DB_PRIMARY );
+		$dbw = MediaWikiServices::getInstance()
+			->getDBLoadBalancer()
+			->getMaintenanceConnectionRef( DB_PRIMARY );
 		$pageTitle = $article->getTitle()->getPrefixedDBkey();
 		// See if it's ignored.
 		$ignored = $dbw->selectRowCount(
@@ -35,19 +37,24 @@ class MissedPages {
 			return;
 		}
 		// If not ignored, save the page data.
-		$values = [
-			'mp_datetime' => wfTimestampNow(),
-			'mp_page_title' => $pageTitle,
-		];
-		$dbw->insert( static::TABLE_NAME, $values, __METHOD__ );
+		$dbw->insert(
+			static::TABLE_NAME,
+			[
+				'mp_datetime' => wfTimestampNow(),
+				'mp_page_title' => $pageTitle,
+			],
+			__METHOD__
+		);
 	}
 
 	/**
 	 * @return bool|IResultWrapper
 	 */
 	public function getLogEntries() {
-		$dbr = wfGetDB( DB_REPLICA );
-		$records = $dbr->select(
+		$dbr = MediaWikiServices::getInstance()
+			->getDBLoadBalancer()
+			->getMaintenanceConnectionRef( DB_REPLICA );
+		return $dbr->select(
 			static::TABLE_NAME,
 			[
 				'count' => 'COUNT(*)',
@@ -62,15 +69,16 @@ class MissedPages {
 				'LIMIT' => 100,
 			]
 		);
-		return $records;
 	}
 
 	/**
 	 * @return bool|IResultWrapper
 	 */
 	public function getIgnoredEntries() {
-		$dbr = wfGetDB( DB_REPLICA );
-		$records = $dbr->select(
+		$dbr = MediaWikiServices::getInstance()
+			->getDBLoadBalancer()
+			->getMaintenanceConnectionRef( DB_REPLICA );
+		return $dbr->select(
 			static::TABLE_NAME,
 			[
 				'count' => 'COUNT(mp_id)',
@@ -83,7 +91,6 @@ class MissedPages {
 				'GROUP BY' => ' mp_page_title',
 			]
 		);
-		return $records;
 	}
 
 	/**
@@ -92,12 +99,16 @@ class MissedPages {
 	 * @param string $title
 	 */
 	public function delete( $title ) {
-		$dbw = wfGetDB( DB_PRIMARY );
-		$title = Title::newFromText( $title );
-		$conds = [
-			'mp_page_title' => $title->getPrefixedDBkey(),
-		];
-		$dbw->delete( static::TABLE_NAME, $conds, __METHOD__ );
+		$dbw = MediaWikiServices::getInstance()
+			->getDBLoadBalancer()
+			->getMaintenanceConnectionRef( DB_PRIMARY );
+		$dbw->delete(
+			static::TABLE_NAME,
+			[
+				'mp_page_title' => Title::newFromText( $title )->getPrefixedDBkey(),
+			],
+			__METHOD__
+		);
 	}
 
 	/**
@@ -128,18 +139,23 @@ class MissedPages {
 	 * @param string $titleString
 	 */
 	public function ignore( $titleString ) {
-		$dbw = wfGetDB( DB_PRIMARY );
+		$dbw = MediaWikiServices::getInstance()
+			->getDBLoadBalancer()
+			->getMaintenanceConnectionRef( DB_PRIMARY );
 		$title = Title::newFromText( $titleString );
 		$dbw->startAtomic( __METHOD__ );
 		// Delete previous log entries.
 		$this->delete( $titleString );
-		// Then add a new one with the current timestamp, and the ignore flag set.
-		$values = [
-			'mp_datetime' => wfTimestampNow(),
-			'mp_page_title' => $title->getPrefixedDBkey(),
-			'mp_ignore' => true,
-		];
-		$dbw->insert( static::TABLE_NAME, $values, __METHOD__ );
+		// Then add a new one with the current timestamp, with the ignore flag set.
+		$dbw->insert(
+			static::TABLE_NAME,
+			[
+				'mp_datetime' => wfTimestampNow(),
+				'mp_page_title' => $title->getPrefixedDBkey(),
+				'mp_ignore' => true,
+			],
+			__METHOD__
+		);
 		$dbw->endAtomic( __METHOD__ );
 	}
 
@@ -149,7 +165,9 @@ class MissedPages {
 	 * @return int[] Page counts, ordered by date.
 	 */
 	public function getDayCounts( $titleString ) {
-		$dbr = wfGetDB( DB_REPLICA );
+		$dbr = MediaWikiServices::getInstance()
+			->getDBLoadBalancer()
+			->getMaintenanceConnectionRef( DB_REPLICA );
 		$records = $dbr->select(
 			static::TABLE_NAME,
 			[
