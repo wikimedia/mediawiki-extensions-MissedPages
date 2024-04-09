@@ -21,7 +21,7 @@ class MissedPages {
 	public function recordMissingPage( Article $article ) {
 		$dbw = MediaWikiServices::getInstance()
 			->getDBLoadBalancer()
-			->getMaintenanceConnectionRef( DB_PRIMARY );
+			->getConnection( DB_PRIMARY );
 		$pageTitle = $article->getTitle()->getPrefixedDBkey();
 		// See if it's ignored.
 		$ignored = $dbw->selectRowCount(
@@ -53,7 +53,7 @@ class MissedPages {
 	public function getLogEntries() {
 		$dbr = MediaWikiServices::getInstance()
 			->getDBLoadBalancer()
-			->getMaintenanceConnectionRef( DB_REPLICA );
+			->getConnection( DB_REPLICA );
 		return $dbr->select(
 			static::TABLE_NAME,
 			[
@@ -77,7 +77,7 @@ class MissedPages {
 	public function getIgnoredEntries() {
 		$dbr = MediaWikiServices::getInstance()
 			->getDBLoadBalancer()
-			->getMaintenanceConnectionRef( DB_REPLICA );
+			->getConnection( DB_REPLICA );
 		return $dbr->select(
 			static::TABLE_NAME,
 			[
@@ -101,7 +101,7 @@ class MissedPages {
 	public function delete( $title ) {
 		$dbw = MediaWikiServices::getInstance()
 			->getDBLoadBalancer()
-			->getMaintenanceConnectionRef( DB_PRIMARY );
+			->getConnection( DB_PRIMARY );
 		$dbw->delete(
 			static::TABLE_NAME,
 			[
@@ -141,7 +141,7 @@ class MissedPages {
 	public function ignore( $titleString ) {
 		$dbw = MediaWikiServices::getInstance()
 			->getDBLoadBalancer()
-			->getMaintenanceConnectionRef( DB_PRIMARY );
+			->getConnection( DB_PRIMARY );
 		$title = Title::newFromText( $titleString );
 		$dbw->startAtomic( __METHOD__ );
 		// Delete previous log entries.
@@ -167,7 +167,7 @@ class MissedPages {
 	public function getDayCounts( $titleString ) {
 		$dbr = MediaWikiServices::getInstance()
 			->getDBLoadBalancer()
-			->getMaintenanceConnectionRef( DB_REPLICA );
+			->getConnection( DB_REPLICA );
 		$records = $dbr->select(
 			static::TABLE_NAME,
 			[
