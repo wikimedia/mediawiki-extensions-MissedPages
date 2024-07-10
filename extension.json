@@ -6,7 +6,7 @@
 		"Sam Wilson"
 	],
 	"requires": {
-		"MediaWiki": ">= 1.36.0"
+		"MediaWiki": ">= 1.39.0"
 	},
 	"url": "https://www.mediawiki.org/wiki/Extension:MissedPages",
 	"descriptionmsg": "missedpages-desc",

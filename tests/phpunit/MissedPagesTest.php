@@ -104,7 +104,7 @@ class MissedPagesTest extends MediaWikiIntegrationTestCase {
 		];
 		foreach ( $data as $monthNum => $count ) {
 			for ( $i = 1; $i <= $count; $i++ ) {
-				$this->db->insert(
+				$this->getDb()->insert(
 					MissedPages::TABLE_NAME,
 					[
 						'mp_datetime' => '2018-' . $monthNum . '-01 12:00:00',
