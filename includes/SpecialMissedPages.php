@@ -54,7 +54,7 @@ class SpecialMissedPages extends SpecialPage {
 		$this->getOutput()->enableOOUI();
 		$out = $this->getOutput();
 
-		$out->setPageTitle( $this->msg( 'missedpages-special-page-title' ) );
+		$out->setPageTitle( $this->msg( 'missedpages-special-page-title' )->text() );
 		$out->addHelpLink( 'Help:Extension:MissedPages' );
 		$out->addModules( 'ext.missedpages' );
 
