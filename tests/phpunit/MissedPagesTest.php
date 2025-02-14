@@ -14,11 +14,6 @@ use Title;
  */
 class MissedPagesTest extends MediaWikiIntegrationTestCase {
 
-	public function setUp(): void {
-		parent::setUp();
-		$this->tablesUsed = [ 'missed_pages' ];
-	}
-
 	/**
 	 * @covers \MediaWiki\Extension\MissedPages\MissedPages::recordMissingPage()
 	 */
