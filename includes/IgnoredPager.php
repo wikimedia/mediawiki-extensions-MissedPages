@@ -3,8 +3,8 @@
 namespace MediaWiki\Extension\MissedPages;
 
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Title\Title;
 use TablePager;
-use Title;
 
 class IgnoredPager extends TablePager {
 

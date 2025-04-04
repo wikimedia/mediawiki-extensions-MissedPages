@@ -3,7 +3,8 @@
 namespace MediaWiki\Extension\MissedPages;
 
 use Davaxi\Sparkline;
-use Html;
+use MediaWiki\Html\Html;
+use MediaWiki\Title\Title;
 use MediaWiki\Widget\TitleInputWidget;
 use OOUI\ActionFieldLayout;
 use OOUI\ButtonInputWidget;
@@ -11,7 +12,6 @@ use OOUI\HorizontalLayout;
 use SpecialPage;
 use stdClass;
 use TablePager;
-use Title;
 
 /**
  * Special Page for MissedPages extension.

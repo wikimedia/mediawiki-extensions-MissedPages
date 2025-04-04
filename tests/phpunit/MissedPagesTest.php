@@ -4,8 +4,8 @@ namespace MediaWiki\Extension\MissedPages\Test;
 
 use Article;
 use MediaWiki\Extension\MissedPages\MissedPages;
+use MediaWiki\Title\Title;
 use MediaWikiIntegrationTestCase;
-use Title;
 
 /**
  * @group Database

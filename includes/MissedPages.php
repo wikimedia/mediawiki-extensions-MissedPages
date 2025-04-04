@@ -4,7 +4,7 @@ namespace MediaWiki\Extension\MissedPages;
 
 use Article;
 use MediaWiki\MediaWikiServices;
-use Title;
+use MediaWiki\Title\Title;
 use User;
 use Wikimedia\Rdbms\IResultWrapper;
 
