@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"missedpages": "Páxinas perdidas",
+	"missedpages-extensionname": "Páxinas perdidas",
+	"missedpages-desc": "Resume os erros 404 (páxina non atopada) e proporciona unha forma rápida de redirixilos ou ignoralos.",
+	"missedpages-special-page-title": "Páxinas perdidas",
+	"missedpages-nav": "Populares",
+	"missedpages-nav-recent": "Recentes",
+	"missedpages-nav-ignored": "Ignoradas",
+	"missedpages-trend": "Tendencia",
+	"missedpages-sparkline-title": "$1 {{PLURAL:$1|visualización|visualizacións}} durante máis {{PLURAL:$2|dun día|de $2 días}}",
+	"missedpages-count": "Contaxe",
+	"missedpages-id": "ID",
+	"missedpages-datetime": "Data e hora",
+	"missedpages-page": "Páxina",
+	"missedpages-actions": "Accións",
+	"missedpages-redirect": "Redirixir",
+	"missedpages-redirect-desc": "Engadir unha redirección para esta páxina.",
+	"missedpages-redirect-comment": "Redirección engadida por «Páxinas perdidas».",
+	"missedpages-delete": "Eliminar",
+	"missedpages-delete-desc": "Eliminar as entradas desta páxina do rexistro.",
+	"missedpages-ignore": "Ignorar",
+	"missedpages-ignore-desc": "Ignorar esta páxina no futuro cando produza un erro 404."
+}
