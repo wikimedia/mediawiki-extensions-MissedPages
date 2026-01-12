@@ -2,11 +2,19 @@
 	"@metadata": {
 		"authors": [
 			"A Chinese Wikipedian",
+			"Peterxy12",
 			"沈澄心"
 		]
 	},
+	"missedpages": "缺少页面",
+	"missedpages-special-page-title": "缺少页面",
+	"missedpages-nav": "热门",
+	"missedpages-nav-recent": "最近",
+	"missedpages-nav-ignored": "已忽略",
+	"missedpages-trend": "趋势",
 	"missedpages-count": "计数",
 	"missedpages-id": "ID",
+	"missedpages-datetime": "日期和时间",
 	"missedpages-page": "页",
 	"missedpages-actions": "操作",
 	"missedpages-redirect": "重定向",
