@@ -2,22 +2,29 @@
 	"@metadata": {
 		"authors": [
 			"A Chinese Wikipedian",
+			"GuoPC",
 			"Peterxy12",
 			"沈澄心"
 		]
 	},
 	"missedpages": "缺少页面",
+	"missedpages-desc": "汇总404（页面未找到）错误，并提供重定向或忽略错误的快速方法。",
 	"missedpages-special-page-title": "缺少页面",
 	"missedpages-nav": "热门",
 	"missedpages-nav-recent": "最近",
 	"missedpages-nav-ignored": "已忽略",
 	"missedpages-trend": "趋势",
+	"missedpages-sparkline-title": "$2{{PLURAL:$2|日}}内有$1{{PLURAL:$1|次页面浏览}}",
 	"missedpages-count": "计数",
 	"missedpages-id": "ID",
 	"missedpages-datetime": "日期和时间",
 	"missedpages-page": "页",
 	"missedpages-actions": "操作",
 	"missedpages-redirect": "重定向",
+	"missedpages-redirect-desc": "添加此页面的重定向。",
+	"missedpages-redirect-comment": "由MissedPages添加的重定向。",
 	"missedpages-delete": "删除",
-	"missedpages-ignore": "忽略"
+	"missedpages-delete-desc": "从日志中删除此页面对应项目。",
+	"missedpages-ignore": "忽略",
+	"missedpages-ignore-desc": "今后如果此页面出现404错误，忽略此页面。"
 }
