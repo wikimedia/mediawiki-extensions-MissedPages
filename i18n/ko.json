@@ -1,18 +1,28 @@
 {
 	"@metadata": {
 		"authors": [
+			"Tensama0415",
 			"Ykhwong"
 		]
 	},
+	"missedpages": "누락된 문서",
+	"missedpages-desc": "404(페이지를 찾을 수 없음) 오류를 요약하고, 해당 오류를 빠르게 넘겨주거나 무시하는 방법을 제공합니다.",
+	"missedpages-special-page-title": "누락된 문서",
+	"missedpages-nav": "인기",
 	"missedpages-nav-recent": "최근",
 	"missedpages-nav-ignored": "무시됨",
 	"missedpages-trend": "트렌드",
+	"missedpages-sparkline-title": "$2{{PLURAL:$2|일}}동안 $1번 {{PLURAL:$1|조회됨}}",
+	"missedpages-count": "횟수",
 	"missedpages-id": "ID",
 	"missedpages-datetime": "날짜 및 시간",
 	"missedpages-page": "문서",
+	"missedpages-actions": "조치",
 	"missedpages-redirect": "넘겨주기",
 	"missedpages-redirect-desc": "이 문서를 위한 넘겨주기를 추가합니다.",
+	"missedpages-redirect-comment": "MissedPages에서 추가한 넘겨주기입니다.",
 	"missedpages-delete": "삭제",
+	"missedpages-delete-desc": "로그에서 이 문서의 항목을 삭제합니다.",
 	"missedpages-ignore": "무시",
 	"missedpages-ignore-desc": "404 오류 발생 시 앞으로 이 페이지를 무시합니다."
 }
