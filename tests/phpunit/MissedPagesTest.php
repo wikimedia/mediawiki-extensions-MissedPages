@@ -63,7 +63,7 @@ class MissedPagesTest extends MediaWikiIntegrationTestCase {
 		// Check that the redirect syntax was inserted correctly.
 		$fromPage = $this->getServiceContainer()->getWikiPageFactory()->newFromTitle( $from->getTitle() );
 		static::assertEquals( '#REDIRECT [[Test target]]',
-			$fromPage->getContent()->getNativeData()
+			$fromPage->getContent()->getText()
 		);
 
 		// Check that the log was emptied.
