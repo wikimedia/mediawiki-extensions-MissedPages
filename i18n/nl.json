@@ -4,11 +4,12 @@
 			"Bdijkstra",
 			"Elroy",
 			"Mainframe98",
-			"Rots61"
+			"Rots61",
+			"Siebrand"
 		]
 	},
 	"missedpages": "Ontbrekende pagina's",
-	"missedpages-desc": "Maakt een samenvatting van 404 (pagina niet gevonden) fouten en toont een snelle manier om deze te laten doorverwijzen of ze te negeren.",
+	"missedpages-desc": "Maakt een samenvatting van 404-fouten (pagina niet gevonden) en biedt een snelle manier om deze te laten doorverwijzen of ze te negeren.",
 	"missedpages-special-page-title": "Ontbrekende pagina's",
 	"missedpages-nav": "Populair",
 	"missedpages-nav-recent": "Onlangs",
