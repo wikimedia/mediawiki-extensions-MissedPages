@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"شاه زمان پټان"
+		]
+	},
+	"missedpages": "ورک شوي مخونه",
+	"missedpages-extensionname": "ورک شوي مخونه",
+	"missedpages-desc": "د ۴۰۴ (مخ ونه موندل شو) تېروتنو لنډيز کوي، او د هغوی د مخگرځ يا له پامه غورځولو لپاره يوه چټکه لار چمتو کوي.",
+	"missedpages-special-page-title": "ورک شوي مخونه",
+	"missedpages-nav": "مشهور",
+	"missedpages-nav-recent": "وروستني",
+	"missedpages-nav-ignored": "له پامه غورځول شوی",
+	"missedpages-trend": "لېوالتيا",
+	"missedpages-sparkline-title": "په $2 {{PLURAL:$2|ورځ|ورځو}} کې $1 {{PLURAL:$1|مخ کتنه|مخ کتنې}}",
+	"missedpages-count": "شمېرل",
+	"missedpages-id": "پېژند",
+	"missedpages-datetime": "نېټه او وخت",
+	"missedpages-page": "مخ",
+	"missedpages-actions": "چارې",
+	"missedpages-redirect": "مخگرځ",
+	"missedpages-redirect-desc": "دې مخ ته يو مخگرځ ورگډول.",
+	"missedpages-redirect-comment": "د ورکوشويومخونو له‌خوا مخگرځ ورگډ شو.",
+	"missedpages-delete": "ړنگول",
+	"missedpages-delete-desc": "د دې مخ ننوتنې له يادښت څخه ړنگول",
+	"missedpages-ignore": "بابېزول",
+	"missedpages-ignore-desc": "په راتلونکي کې کله چې دا مخ ۴۰۴ تېروتنه رامنځته کړي؛ نو له پامه يې وغورځوئ."
+}
