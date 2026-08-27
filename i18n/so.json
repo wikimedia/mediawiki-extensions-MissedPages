@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"missedpages": "Bogagga la seegay",
+	"missedpages-desc": "Waxay soo koobaysaa khaladaadka 404 (bogga lama helin), waxayna bixisaa hab degdeg ah oo loogu leexiyo ama loo iska indhatiro.",
+	"missedpages-special-page-title": "Bogagga la seegay",
+	"missedpages-nav": "Caansan",
+	"missedpages-nav-recent": "Dhawaan",
+	"missedpages-nav-ignored": "Iska indha tir",
+	"missedpages-trend": "Isbeddelka",
+	"missedpages-sparkline-title": "$1 {{PLURAL:$1|aragtida boga|aragtida bogaga}} muddo $2 {{PLURAL:$2|maalin|maalmood}} ah",
+	"missedpages-count": "Tirinta",
+	"missedpages-id": "Aqoonsi",
+	"missedpages-datetime": "Taariikh iyo waqti",
+	"missedpages-page": "Bog",
+	"missedpages-actions": "Falalka",
+	"missedpages-redirect": "Sii toosin",
+	"missedpages-redirect-desc": "Ku dar sii toosin boggan.",
+	"missedpages-redirect-comment": "Sii toosin waxaa ku daray MissedPages.",
+	"missedpages-delete": "Tirtir",
+	"missedpages-delete-desc": "Ka tirtir gelinnada boggan diiwaanka.",
+	"missedpages-ignore": "Iska indha tir",
+	"missedpages-ignore-desc": "Mustaqbalka iska dhaaf boggan marka uu soo saaro khalad 404."
+}
