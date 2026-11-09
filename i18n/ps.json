@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"باران",
 			"شاه زمان پټان"
 		]
 	},
@@ -11,7 +12,7 @@
 	"missedpages-nav": "مشهور",
 	"missedpages-nav-recent": "وروستني",
 	"missedpages-nav-ignored": "له پامه غورځول شوی",
-	"missedpages-trend": "لېوالتيا",
+	"missedpages-trend": "وسمهاله دودشوي",
 	"missedpages-sparkline-title": "په $2 {{PLURAL:$2|ورځ|ورځو}} کې $1 {{PLURAL:$1|مخ کتنه|مخ کتنې}}",
 	"missedpages-count": "شمېرل",
 	"missedpages-id": "پېژند",
